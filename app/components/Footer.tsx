@@ -2,6 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import { Flower2, Sparkles, Heart } from "lucide-react";
 
 const footerLinks = {
   Tienda: ["Skincare", "Labios", "Ojos", "Rostro", "Sets de Regalo"],
@@ -28,10 +29,12 @@ export default function Footer() {
         style={{ background: "linear-gradient(135deg, #e91e63, #ad1457)" }}
       >
         <h2
-          className="text-3xl md:text-4xl font-bold text-white mb-4"
+          className="flex items-center justify-center gap-3 text-3xl md:text-4xl font-bold text-white mb-4"
           style={{ fontFamily: "var(--font-playfair)" }}
         >
-          Únete a la Familia Pink Pop 🌸
+          <Flower2 size={32} strokeWidth={1.5} />
+          Únete a la Familia Pink Pop
+          <Flower2 size={32} strokeWidth={1.5} />
         </h2>
         <p className="text-pink-100 mb-8 max-w-md mx-auto" style={{ fontFamily: "var(--font-lato)" }}>
           Suscríbete para recibir ofertas exclusivas, consejos de belleza y acceso anticipado a los nuevos lanzamientos.
@@ -41,23 +44,16 @@ export default function Footer() {
             type="email"
             placeholder="tu@correo.com"
             className="flex-1 px-5 py-3 rounded-full text-sm outline-none border-2 border-transparent focus:border-pink-200"
-            style={{
-              background: "rgba(255,255,255,0.95)",
-              color: "#880e4f",
-              fontFamily: "var(--font-lato)",
-            }}
+            style={{ background: "rgba(255,255,255,0.95)", color: "#880e4f", fontFamily: "var(--font-lato)" }}
           />
           <motion.button
             whileHover={{ scale: 1.05, boxShadow: "0 6px 24px rgba(0,0,0,0.2)" }}
             whileTap={{ scale: 0.97 }}
-            className="px-6 py-3 rounded-full font-semibold text-sm whitespace-nowrap"
-            style={{
-              background: "#fff",
-              color: "#c2185b",
-              fontFamily: "var(--font-lato)",
-            }}
+            className="flex items-center justify-center gap-2 px-6 py-3 rounded-full font-semibold text-sm whitespace-nowrap"
+            style={{ background: "#fff", color: "#c2185b", fontFamily: "var(--font-lato)" }}
           >
-            Suscribirme ✨
+            <Sparkles size={14} />
+            Suscribirme
           </motion.button>
         </div>
       </motion.div>
@@ -71,7 +67,7 @@ export default function Footer() {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <div className="flex items-center gap-2 mb-4">
-            <span className="text-2xl">🌸</span>
+            <Flower2 size={22} style={{ color: "#e91e63" }} strokeWidth={1.5} />
             <span
               className="text-xl font-bold"
               style={{ fontFamily: "var(--font-playfair)", color: "#880e4f" }}
@@ -137,8 +133,8 @@ export default function Footer() {
         <p className="text-xs" style={{ color: "#9c4062", fontFamily: "var(--font-lato)" }}>
           © 2026 Pink Pop Cosmetics. Todos los derechos reservados.
         </p>
-        <p className="text-xs" style={{ color: "#c2185b", fontFamily: "var(--font-lato)" }}>
-          Hecho con 💕 para amantes de la belleza en todo el mundo
+        <p className="flex items-center gap-1.5 text-xs" style={{ color: "#c2185b", fontFamily: "var(--font-lato)" }}>
+          Hecho con <Heart size={12} fill="#c2185b" strokeWidth={0} /> para amantes de la belleza en todo el mundo
         </p>
       </div>
     </footer>

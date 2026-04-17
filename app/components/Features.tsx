@@ -1,33 +1,43 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { useInView } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import { Leaf, Heart, Recycle, Award, LucideIcon } from "lucide-react";
 
-const features = [
+const features: { Icon: LucideIcon; title: string; desc: string }[] = [
   {
-    icon: "🌿",
+    Icon: Leaf,
     title: "100% Natural",
     desc: "Formulado con extractos botánicos puros, libre de parabenos, sulfatos y químicos agresivos.",
   },
   {
-    icon: "🐰",
+    Icon: Heart,
     title: "Libre de Crueldad",
     desc: "Nunca testado en animales. Nuestro ritual de belleza cuida a cada ser vivo del planeta.",
   },
   {
-    icon: "♻️",
+    Icon: Recycle,
     title: "Empaque Eco",
     desc: "Empaques reciclables y biodegradables para que tu rutina de belleza le devuelva algo a la tierra.",
   },
   {
-    icon: "💎",
+    Icon: Award,
     title: "Testado por Dermatólogos",
     desc: "Probado y aprobado clínicamente para todo tipo de piel, incluida la piel sensible y reactiva.",
   },
 ];
 
-function FeatureCard({ icon, title, desc, index }: { icon: string; title: string; desc: string; index: number }) {
+function FeatureCard({
+  Icon,
+  title,
+  desc,
+  index,
+}: {
+  Icon: LucideIcon;
+  title: string;
+  desc: string;
+  index: number;
+}) {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-60px" });
 
@@ -39,18 +49,16 @@ function FeatureCard({ icon, title, desc, index }: { icon: string; title: string
       transition={{ duration: 0.6, delay: index * 0.12 }}
       whileHover={{ y: -6, boxShadow: "0 16px 40px rgba(194,24,91,0.12)" }}
       className="flex flex-col items-center text-center p-8 rounded-3xl border"
-      style={{
-        background: "linear-gradient(135deg, #fff0f5, #fce4ec)",
-        borderColor: "#f8bbd0",
-      }}
+      style={{ background: "linear-gradient(135deg, #fff0f5, #fce4ec)", borderColor: "#f8bbd0" }}
     >
-      <motion.span
-        className="text-5xl mb-4"
+      <motion.div
         whileHover={{ scale: 1.2, rotate: 10 }}
         transition={{ type: "spring", stiffness: 300 }}
+        className="mb-4 p-3 rounded-2xl"
+        style={{ background: "linear-gradient(135deg, #fce4ec, #f8bbd0)", color: "#c2185b" }}
       >
-        {icon}
-      </motion.span>
+        <Icon size={36} strokeWidth={1.5} />
+      </motion.div>
       <h3
         className="text-lg font-bold mb-2"
         style={{ fontFamily: "var(--font-playfair)", color: "#880e4f" }}

@@ -1,98 +1,29 @@
 "use client";
 
-import { motion, AnimatePresence } from "framer-motion";
-import { useInView } from "framer-motion";
+import { motion, AnimatePresence, useInView } from "framer-motion";
 import { useRef, useState } from "react";
+import Image from "next/image";
+import { ShoppingBag } from "lucide-react";
+import { products, type Product } from "@/lib/products";
+import { useCart } from "@/lib/cart-context";
 
-const categories = ["Todo", "Skincare", "Labios", "Ojos", "Rostro"];
+const CATEGORY_LABELS: Record<string, string> = {
+  blush: "Rostro",
+  foundation: "Rostro",
+  cushion: "Rostro",
+  palette: "Rostro",
+  lipstick: "Labios",
+};
 
-const products = [
-  {
-    id: 1,
-    name: "Sérum Rosa Resplandor",
-    category: "Skincare",
-    price: "$48",
-    badge: "Más Vendido",
-    gradient: "linear-gradient(135deg, #f8bbd0, #e91e63)",
-    emoji: "🌹",
-    desc: "Hidratación 24h con extracto de rosa mosqueta",
-  },
-  {
-    id: 2,
-    name: "Set de Labios Velvet",
-    category: "Labios",
-    price: "$36",
-    badge: "Nuevo",
-    gradient: "linear-gradient(135deg, #f48fb1, #ad1457)",
-    emoji: "💋",
-    desc: "Acabado mate de larga duración, 12 tonos",
-  },
-  {
-    id: 3,
-    name: "Hidratante Perla",
-    category: "Skincare",
-    price: "$55",
-    badge: null,
-    gradient: "linear-gradient(135deg, #fce4ec, #f48fb1)",
-    emoji: "🫧",
-    desc: "Extracto de perla para una piel luminosa y radiante",
-  },
-  {
-    id: 4,
-    name: "Paleta Bloom Blush",
-    category: "Rostro",
-    price: "$42",
-    badge: "Nuevo",
-    gradient: "linear-gradient(135deg, #ffcdd2, #e91e63)",
-    emoji: "🌺",
-    desc: "6 tonos botánicos de rubor para cada look",
-  },
-  {
-    id: 5,
-    name: "Sombras Silk Quad",
-    category: "Ojos",
-    price: "$39",
-    badge: null,
-    gradient: "linear-gradient(135deg, #f8bbd0, #c2185b)",
-    emoji: "✨",
-    desc: "Pigmento sedoso que dura todo el día y la noche",
-  },
-  {
-    id: 6,
-    name: "Base Glow Melocotón",
-    category: "Rostro",
-    price: "$52",
-    badge: "Más Vendido",
-    gradient: "linear-gradient(135deg, #ffccbc, #f06292)",
-    emoji: "🍑",
-    desc: "Cobertura buildable con protección SPF 30",
-  },
-  {
-    id: 7,
-    name: "Gloss de Cereza",
-    category: "Labios",
-    price: "$22",
-    badge: null,
-    gradient: "linear-gradient(135deg, #ffcdd2, #b71c1c)",
-    emoji: "🍒",
-    desc: "Brillo jugoso con complejo de péptidos voluminizadores",
-  },
-  {
-    id: 8,
-    name: "Máscara Amplificadora",
-    category: "Ojos",
-    price: "$28",
-    badge: "Nuevo",
-    gradient: "linear-gradient(135deg, #f8bbd0, #880e4f)",
-    emoji: "🦋",
-    desc: "Fórmula voluminizadora para pestañas dramáticas",
-  },
-];
+const FILTER_CATEGORIES = ["Todo", "Rostro", "Labios"];
 
-function ProductCard({ product, index }: { product: typeof products[0]; index: number }) {
+function ProductCard({ product, index }: { product: Product; index: number }) {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-40px" });
   const [hovered, setHovered] = useState(false);
+  const { addItem } = useCart();
+
+  const categoryLabel = CATEGORY_LABELS[product.category] ?? product.category;
 
   return (
     <motion.div
@@ -110,29 +41,15 @@ function ProductCard({ product, index }: { product: typeof products[0]; index: n
         transition: "box-shadow 0.3s ease",
       }}
     >
-      {/* Product visual */}
-      <div
-        className="relative h-56 flex items-center justify-center overflow-hidden"
-        style={{ background: product.gradient }}
-      >
-        {product.badge && (
-          <motion.span
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            className="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold text-white"
-            style={{ background: "rgba(136,14,79,0.85)", fontFamily: "var(--font-lato)" }}
-          >
-            {product.badge}
-          </motion.span>
-        )}
-
-        <motion.span
-          animate={{ scale: hovered ? 1.3 : 1, rotate: hovered ? 10 : 0 }}
-          transition={{ type: "spring", stiffness: 250 }}
-          className="text-8xl drop-shadow-lg select-none"
-        >
-          {product.emoji}
-        </motion.span>
+      {/* Product image */}
+      <div className="relative h-56 overflow-hidden bg-pink-50">
+        <Image
+          src={product.image}
+          alt={product.name}
+          fill
+          className="object-cover transition-transform duration-500 group-hover:scale-105"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+        />
 
         {/* Add to cart overlay */}
         <motion.div
@@ -142,14 +59,16 @@ function ProductCard({ product, index }: { product: typeof products[0]; index: n
           className="absolute bottom-4 left-1/2 -translate-x-1/2"
         >
           <button
-            className="px-6 py-2 rounded-full text-white text-sm font-semibold whitespace-nowrap"
+            onClick={() => addItem(product, 1)}
+            className="flex items-center gap-2 px-5 py-2 rounded-full text-white text-sm font-semibold whitespace-nowrap"
             style={{
               background: "rgba(136,14,79,0.9)",
               fontFamily: "var(--font-lato)",
               backdropFilter: "blur(4px)",
             }}
           >
-            Agregar al Carrito 🛒
+            <ShoppingBag size={14} />
+            Agregar al Carrito
           </button>
         </motion.div>
       </div>
@@ -159,27 +78,44 @@ function ProductCard({ product, index }: { product: typeof products[0]; index: n
         className="p-5"
         style={{ background: "linear-gradient(135deg, #fff5f7, #fce4ec)" }}
       >
-        <p className="text-xs font-semibold uppercase tracking-wider mb-1" style={{ color: "#f06292", fontFamily: "var(--font-lato)" }}>
-          {product.category}
+        <p
+          className="text-xs font-semibold uppercase tracking-wider mb-0.5"
+          style={{ color: "#f06292", fontFamily: "var(--font-lato)" }}
+        >
+          {product.brand}
+        </p>
+        <p
+          className="text-xs font-medium uppercase tracking-widest mb-2"
+          style={{ color: "#ad1457", fontFamily: "var(--font-lato)", opacity: 0.7 }}
+        >
+          {categoryLabel}
         </p>
         <h3
-          className="font-bold text-base mb-1"
+          className="font-bold text-base mb-1 leading-snug"
           style={{ fontFamily: "var(--font-playfair)", color: "#880e4f" }}
         >
           {product.name}
         </h3>
-        <p className="text-xs mb-3 leading-relaxed" style={{ color: "#9c4062", fontFamily: "var(--font-lato)" }}>
-          {product.desc}
+        <p
+          className="text-xs mb-3 leading-relaxed line-clamp-2"
+          style={{ color: "#9c4062", fontFamily: "var(--font-lato)" }}
+        >
+          {product.description}
         </p>
         <div className="flex items-center justify-between">
-          <span className="text-xl font-bold" style={{ fontFamily: "var(--font-playfair)", color: "#c2185b" }}>
-            {product.price}
+          <span
+            className="text-xl font-bold"
+            style={{ fontFamily: "var(--font-playfair)", color: "#c2185b" }}
+          >
+            ${product.price.toFixed(2)}
           </span>
-          <div className="flex gap-0.5">
-            {Array.from({ length: 5 }).map((_, i) => (
-              <span key={i} className="text-xs" style={{ color: "#f06292" }}>★</span>
-            ))}
-          </div>
+          <button
+            onClick={() => addItem(product, 1)}
+            className="rounded-full border border-pink-300 px-3 py-1 text-xs font-semibold text-pink-700 transition hover:bg-pink-600 hover:text-white hover:border-pink-600"
+            style={{ fontFamily: "var(--font-lato)" }}
+          >
+            + Carrito
+          </button>
         </div>
       </div>
     </motion.div>
@@ -191,9 +127,10 @@ export default function ProductGallery() {
   const titleRef = useRef(null);
   const titleInView = useInView(titleRef, { once: true, margin: "-80px" });
 
-  const filtered = activeCategory === "Todo"
-    ? products
-    : products.filter((p) => p.category === activeCategory);
+  const filtered =
+    activeCategory === "Todo"
+      ? products
+      : products.filter((p) => CATEGORY_LABELS[p.category] === activeCategory);
 
   return (
     <section
@@ -202,7 +139,6 @@ export default function ProductGallery() {
       style={{ background: "linear-gradient(180deg, #fff5f7 0%, #fce4ec 100%)" }}
     >
       <div className="max-w-6xl mx-auto">
-        {/* Title */}
         <motion.div
           ref={titleRef}
           initial={{ opacity: 0, y: 30 }}
@@ -223,14 +159,17 @@ export default function ProductGallery() {
           >
             Galería de Productos
           </h2>
-          <p className="max-w-xl mx-auto text-base" style={{ color: "#9c4062", fontFamily: "var(--font-lato)" }}>
+          <p
+            className="max-w-xl mx-auto text-base"
+            style={{ color: "#9c4062", fontFamily: "var(--font-lato)" }}
+          >
             Cada producto es un pequeño frasco de felicidad — creado para hacerte sentir hermosa, por dentro y por fuera.
           </p>
         </motion.div>
 
         {/* Category filter */}
         <div className="flex flex-wrap justify-center gap-3 mb-12">
-          {categories.map((cat) => (
+          {FILTER_CATEGORIES.map((cat) => (
             <motion.button
               key={cat}
               onClick={() => setActiveCategory(cat)}
@@ -239,12 +178,15 @@ export default function ProductGallery() {
               className="px-5 py-2 rounded-full text-sm font-semibold transition-all duration-200"
               style={{
                 fontFamily: "var(--font-lato)",
-                background: activeCategory === cat
-                  ? "linear-gradient(135deg, #e91e63, #c2185b)"
-                  : "rgba(255,255,255,0.7)",
+                background:
+                  activeCategory === cat
+                    ? "linear-gradient(135deg, #e91e63, #c2185b)"
+                    : "rgba(255,255,255,0.7)",
                 color: activeCategory === cat ? "#fff" : "#9c4062",
-                border: activeCategory === cat ? "2px solid transparent" : "2px solid #f8bbd0",
-                boxShadow: activeCategory === cat ? "0 4px 16px rgba(194,24,91,0.3)" : "none",
+                border:
+                  activeCategory === cat ? "2px solid transparent" : "2px solid #f8bbd0",
+                boxShadow:
+                  activeCategory === cat ? "0 4px 16px rgba(194,24,91,0.3)" : "none",
               }}
             >
               {cat}

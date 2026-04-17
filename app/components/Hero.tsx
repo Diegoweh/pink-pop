@@ -1,6 +1,15 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { Sparkles, Star, Gem, Heart, Flower2 } from "lucide-react";
+
+const FLOATERS = [
+  { Icon: Flower2, top: "15%", left: "8%", color: "#f48fb1", size: 28 },
+  { Icon: Gem,     top: "70%", left: "85%", color: "#c2185b", size: 22 },
+  { Icon: Heart,   top: "30%", left: "90%", color: "#f06292", size: 20 },
+  { Icon: Star,    top: "80%", left: "5%",  color: "#e91e63", size: 24 },
+  { Icon: Sparkles,top: "55%", left: "50%", color: "#ad1457", size: 18 },
+];
 
 export default function Hero() {
   return (
@@ -29,28 +38,16 @@ export default function Hero() {
         style={{ background: "radial-gradient(circle, #fce4ec, #ad1457)" }}
       />
 
-      {/* Decorative petals */}
-      {["🌸", "🌷", "💐", "🌺", "✨"].map((petal, i) => (
+      {/* Decorative floating icons */}
+      {FLOATERS.map(({ Icon, top, left, color, size }, i) => (
         <motion.span
           key={i}
-          className="absolute text-3xl select-none pointer-events-none"
-          style={{
-            top: `${[15, 70, 30, 80, 55][i]}%`,
-            left: `${[8, 85, 90, 5, 50][i]}%`,
-          }}
-          animate={{
-            y: [0, -20, 0],
-            rotate: [0, 15, -15, 0],
-            opacity: [0.6, 1, 0.6],
-          }}
-          transition={{
-            duration: 4 + i,
-            repeat: Infinity,
-            ease: "easeInOut",
-            delay: i * 0.7,
-          }}
+          className="absolute select-none pointer-events-none"
+          style={{ top, left, color, opacity: 0.55 }}
+          animate={{ y: [0, -20, 0], rotate: [0, 15, -15, 0], opacity: [0.45, 0.7, 0.45] }}
+          transition={{ duration: 4 + i, repeat: Infinity, ease: "easeInOut", delay: i * 0.7 }}
         >
-          {petal}
+          <Icon size={size} strokeWidth={1.5} />
         </motion.span>
       ))}
 
@@ -60,10 +57,12 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-sm font-semibold uppercase tracking-widest mb-4"
+          className="flex items-center justify-center gap-2 text-sm font-semibold uppercase tracking-widest mb-4"
           style={{ color: "#ad1457", fontFamily: "var(--font-lato)" }}
         >
-          Nueva Colección 2026 ✨
+          <Sparkles size={14} />
+          Nueva Colección 2026
+          <Sparkles size={14} />
         </motion.p>
 
         <motion.h1
@@ -144,11 +143,14 @@ export default function Hero() {
           {[
             { value: "50k+", label: "Clientas Felices" },
             { value: "120+", label: "Productos" },
-            { value: "4.9★", label: "Calificación" },
+            { value: "4.9", label: "Calificación" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <p className="text-2xl font-bold" style={{ color: "#c2185b", fontFamily: "var(--font-playfair)" }}>
                 {stat.value}
+                {stat.label === "Calificación" && (
+                  <Star size={16} className="inline ml-1 mb-0.5" fill="#c2185b" strokeWidth={0} />
+                )}
               </p>
               <p className="text-xs mt-1" style={{ color: "#9c4062", fontFamily: "var(--font-lato)" }}>
                 {stat.label}
@@ -161,10 +163,7 @@ export default function Hero() {
       {/* Bottom wave */}
       <div className="absolute bottom-0 left-0 right-0">
         <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M0 40 C360 80 1080 0 1440 40 L1440 80 L0 80 Z"
-            fill="#fff5f7"
-          />
+          <path d="M0 40 C360 80 1080 0 1440 40 L1440 80 L0 80 Z" fill="#fff5f7" />
         </svg>
       </div>
     </section>

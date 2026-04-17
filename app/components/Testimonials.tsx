@@ -2,6 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
+import { Star, Heart } from "lucide-react";
 
 const testimonials = [
   {
@@ -10,7 +11,7 @@ const testimonials = [
     avatar: "SM",
     color: "#f48fb1",
     review:
-      "¡El Sérum Rosa Resplandor transformó completamente mi piel! Nunca me había sentido tan radiante y segura. Pink Pop es mi marca para siempre. 🌹",
+      "¡El Sérum Rosa Resplandor transformó completamente mi piel! Nunca me había sentido tan radiante y segura. Pink Pop es mi marca para siempre.",
     product: "Sérum Rosa Resplandor",
     stars: 5,
   },
@@ -20,7 +21,7 @@ const testimonials = [
     avatar: "EC",
     color: "#f06292",
     review:
-      "El Set de Labios Velvet es absolutamente increíble. La fórmula es tan cómoda y los colores tienen una pigmentación brutal. ¡Lo amo, lo amo, lo amo! 💋",
+      "El Set de Labios Velvet es absolutamente increíble. La fórmula es tan cómoda y los colores tienen una pigmentación brutal. ¡Lo amo, lo amo, lo amo!",
     product: "Set de Labios Velvet",
     stars: 5,
   },
@@ -30,7 +31,7 @@ const testimonials = [
     avatar: "ID",
     color: "#e91e63",
     review:
-      "Por fin una base que combina con mi tono de piel y no se siente pesada. Glow Melocotón es todo lo que siempre quise en una base. ¡Una maravilla! 🍑",
+      "Por fin una base que combina con mi tono de piel y no se siente pesada. Glow Melocotón es todo lo que siempre quise en una base. ¡Una maravilla!",
     product: "Base Glow Melocotón",
     stars: 5,
   },
@@ -40,7 +41,7 @@ const testimonials = [
     avatar: "LP",
     color: "#c2185b",
     review:
-      "La Paleta Bloom Blush me llena de alegría cada mañana. Los tonos son preciosos y la pigmentación es impresionante. ¡Totalmente vale la pena! 🌺",
+      "La Paleta Bloom Blush me llena de alegría cada mañana. Los tonos son preciosos y la pigmentación es impresionante. ¡Totalmente vale la pena!",
     product: "Paleta Bloom Blush",
     stars: 5,
   },
@@ -59,7 +60,6 @@ export default function Testimonials() {
       style={{ background: "#fff5f7" }}
     >
       <div className="max-w-5xl mx-auto">
-        {/* Title */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -73,10 +73,11 @@ export default function Testimonials() {
             Opiniones
           </p>
           <h2
-            className="text-4xl md:text-5xl font-bold"
+            className="flex items-center justify-center gap-3 text-4xl md:text-5xl font-bold"
             style={{ fontFamily: "var(--font-playfair)", color: "#880e4f" }}
           >
-            Amado por Miles 💕
+            Amado por Miles
+            <Heart size={36} fill="#e91e63" strokeWidth={0} />
           </h2>
         </motion.div>
 
@@ -86,12 +87,8 @@ export default function Testimonials() {
           animate={inView ? { opacity: 1, scale: 1 } : {}}
           transition={{ duration: 0.6, delay: 0.2 }}
           className="relative rounded-3xl p-8 md:p-12 mb-8 text-center"
-          style={{
-            background: "linear-gradient(135deg, #fce4ec, #fff0f5)",
-            border: "2px solid #f8bbd0",
-          }}
+          style={{ background: "linear-gradient(135deg, #fce4ec, #fff0f5)", border: "2px solid #f8bbd0" }}
         >
-          {/* Quote mark */}
           <span
             className="absolute top-6 left-8 text-7xl leading-none opacity-20 select-none"
             style={{ fontFamily: "var(--font-playfair)", color: "#c2185b" }}
@@ -106,7 +103,6 @@ export default function Testimonials() {
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.4 }}
           >
-            {/* Avatar */}
             <div
               className="w-16 h-16 rounded-full flex items-center justify-center text-white font-bold text-lg mx-auto mb-4"
               style={{ background: testimonials[active].color, fontFamily: "var(--font-lato)" }}
@@ -124,12 +120,11 @@ export default function Testimonials() {
                   transition={{ delay: i * 0.05 }}
                   style={{ color: "#f06292" }}
                 >
-                  ★
+                  <Star size={16} fill="#f06292" strokeWidth={0} />
                 </motion.span>
               ))}
             </div>
 
-            {/* Review */}
             <p
               className="text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-6 italic"
               style={{ color: "#6d2a3e", fontFamily: "var(--font-lato)" }}
@@ -137,7 +132,6 @@ export default function Testimonials() {
               {testimonials[active].review}
             </p>
 
-            {/* Name */}
             <p className="font-bold text-base" style={{ color: "#880e4f", fontFamily: "var(--font-playfair)" }}>
               {testimonials[active].name}
             </p>
@@ -147,7 +141,7 @@ export default function Testimonials() {
           </motion.div>
         </motion.div>
 
-        {/* Dots / selector */}
+        {/* Dots */}
         <div className="flex justify-center gap-3">
           {testimonials.map((t, i) => (
             <motion.button

@@ -2,6 +2,7 @@
 
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useState } from "react";
+import { Flower2 } from "lucide-react";
 
 const links = ["Nosotros", "Productos", "Galería", "Opiniones", "Contacto"];
 
@@ -25,7 +26,7 @@ export default function Navbar() {
           transition={{ duration: 0.6 }}
           className="flex items-center gap-2"
         >
-          <span className="text-2xl">🌸</span>
+          <Flower2 size={24} style={{ color: "#e91e63" }} strokeWidth={1.5} />
           <span
             className="text-xl font-bold tracking-tight"
             style={{ fontFamily: "var(--font-playfair)", color: "#c2185b" }}
