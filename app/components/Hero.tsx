@@ -1,170 +1,116 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Sparkles, Star, Gem, Heart, Flower2 } from "lucide-react";
-
-const FLOATERS = [
-  { Icon: Flower2, top: "15%", left: "8%", color: "#f48fb1", size: 28 },
-  { Icon: Gem,     top: "70%", left: "85%", color: "#c2185b", size: 22 },
-  { Icon: Heart,   top: "30%", left: "90%", color: "#f06292", size: 20 },
-  { Icon: Star,    top: "80%", left: "5%",  color: "#e91e63", size: 24 },
-  { Icon: Sparkles,top: "55%", left: "50%", color: "#ad1457", size: 18 },
-];
+import Image from "next/image";
 
 export default function Hero() {
   return (
     <section
       id="about"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
-      style={{ background: "linear-gradient(145deg, #fff0f5 0%, #fce4ec 50%, #f8bbd0 100%)" }}
+      className="relative min-h-screen flex items-center bg-[color:var(--background)] pt-32 pb-24"
     >
-      {/* Floating blobs */}
-      <motion.div
-        animate={{ y: [0, -30, 0], x: [0, 15, 0] }}
-        transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute top-24 right-16 w-64 h-64 rounded-full blur-3xl opacity-40"
-        style={{ background: "radial-gradient(circle, #f48fb1, #e91e63)" }}
-      />
-      <motion.div
-        animate={{ y: [0, 20, 0], x: [0, -10, 0] }}
-        transition={{ duration: 10, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-        className="absolute bottom-32 left-10 w-48 h-48 rounded-full blur-3xl opacity-30"
-        style={{ background: "radial-gradient(circle, #f8bbd0, #f06292)" }}
-      />
-      <motion.div
-        animate={{ y: [0, -15, 0] }}
-        transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 2 }}
-        className="absolute top-1/2 left-1/4 w-32 h-32 rounded-full blur-2xl opacity-20"
-        style={{ background: "radial-gradient(circle, #fce4ec, #ad1457)" }}
-      />
-
-      {/* Decorative floating icons */}
-      {FLOATERS.map(({ Icon, top, left, color, size }, i) => (
-        <motion.span
-          key={i}
-          className="absolute select-none pointer-events-none"
-          style={{ top, left, color, opacity: 0.55 }}
-          animate={{ y: [0, -20, 0], rotate: [0, 15, -15, 0], opacity: [0.45, 0.7, 0.45] }}
-          transition={{ duration: 4 + i, repeat: Infinity, ease: "easeInOut", delay: i * 0.7 }}
-        >
-          <Icon size={size} strokeWidth={1.5} />
-        </motion.span>
-      ))}
-
-      {/* Content */}
-      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="flex items-center justify-center gap-2 text-sm font-semibold uppercase tracking-widest mb-4"
-          style={{ color: "#ad1457", fontFamily: "var(--font-lato)" }}
-        >
-          <Sparkles size={14} />
-          Nueva Colección 2026
-          <Sparkles size={14} />
-        </motion.p>
-
-        <motion.h1
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.15 }}
-          className="text-6xl md:text-8xl font-bold leading-tight mb-6"
-          style={{ fontFamily: "var(--font-playfair)", color: "#880e4f" }}
-        >
-          Belleza que{" "}
-          <motion.span
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, delay: 0.4 }}
-            className="inline-block"
-            style={{
-              background: "linear-gradient(135deg, #e91e63, #f48fb1, #ad1457)",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-            }}
+      <div className="max-w-7xl mx-auto px-8 lg:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 w-full">
+        <div className="lg:col-span-7 flex flex-col justify-center">
+          <motion.p
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7 }}
+            className="text-[11px] font-medium tracking-[0.4em] uppercase text-[color:var(--accent)] mb-8"
           >
-            Florece
-          </motion.span>
-        </motion.h1>
+            Selección premium — MMXXVI
+          </motion.p>
 
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.35 }}
-          className="text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-10"
-          style={{ color: "#9c4062", fontFamily: "var(--font-lato)" }}
-        >
-          Cosméticos de lujo creados con extractos botánicos y mucho amor. Revela tu resplandor natural
-          con nuestra colección rosa — pura, suave e irresistiblemente hermosa.
-        </motion.p>
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.1 }}
+            className="text-5xl md:text-7xl lg:text-8xl font-light leading-[1.05] tracking-[-0.02em] text-[color:var(--foreground)] mb-10"
+          >
+            Belleza.
+            <br />
+            Calidad <span className="italic font-extralight">real</span>.
+          </motion.h1>
+
+          <motion.p
+            initial={{ opacity: 0, y: 15 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.25 }}
+            className="max-w-lg text-base leading-relaxed text-[color:var(--muted)] mb-12"
+          >
+            Seleccionamos maquillaje de alta calidad para quienes buscan buen rendimiento,
+            acabados elegantes y productos confiables en cada compra. Pink Pop vende
+            piezas destacadas de marcas reconocidas, listas para elevar tu rutina.
+          </motion.p>
+
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="flex flex-col sm:flex-row gap-4"
+          >
+            <a
+              href="#products"
+              className="inline-flex items-center justify-center px-10 py-4 text-xs font-semibold tracking-[0.25em] uppercase text-white bg-[color:var(--foreground)] hover:bg-[color:var(--accent)] transition-colors duration-300"
+            >
+              Explorar la colección
+            </a>
+            <a
+              href="#standards"
+              className="inline-flex items-center justify-center px-10 py-4 text-xs font-semibold tracking-[0.25em] uppercase text-[color:var(--foreground)] border border-[color:var(--border-strong)] hover:border-[color:var(--foreground)] transition-colors duration-300"
+            >
+              Por qué elegirnos
+            </a>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
+            className="mt-20 grid grid-cols-3 gap-8 max-w-lg border-t border-[color:var(--border)] pt-8"
+          >
+            {[
+              { value: "120", label: "Productos" },
+              { value: "32", label: "Marcas destacadas" },
+              { value: "04", label: "Categorías" },
+            ].map((stat) => (
+              <div key={stat.label}>
+                <p className="text-3xl font-light tracking-tight text-[color:var(--foreground)]">
+                  {stat.value}
+                </p>
+                <p className="text-[10px] mt-2 tracking-[0.3em] uppercase text-[color:var(--subtle)]">
+                  {stat.label}
+                </p>
+              </div>
+            ))}
+          </motion.div>
+        </div>
 
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.5 }}
-          className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+          initial={{ opacity: 0, scale: 0.98 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1, delay: 0.3 }}
+          className="lg:col-span-5 relative hidden lg:flex items-center justify-center"
         >
-          <motion.a
-            href="#products"
-            whileHover={{ scale: 1.06, boxShadow: "0 8px 30px rgba(194,24,91,0.35)" }}
-            whileTap={{ scale: 0.97 }}
-            className="px-8 py-4 rounded-full text-white font-semibold text-base shadow-lg"
-            style={{
-              background: "linear-gradient(135deg, #e91e63, #c2185b)",
-              fontFamily: "var(--font-lato)",
-            }}
-          >
-            Ver Colección
-          </motion.a>
-          <motion.a
-            href="#gallery"
-            whileHover={{ scale: 1.04 }}
-            whileTap={{ scale: 0.97 }}
-            className="px-8 py-4 rounded-full font-semibold text-base border-2"
-            style={{
-              color: "#c2185b",
-              borderColor: "#f48fb1",
-              fontFamily: "var(--font-lato)",
-              background: "rgba(255,255,255,0.5)",
-            }}
-          >
-            Ver Galería
-          </motion.a>
-        </motion.div>
-
-        {/* Stats */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.7 }}
-          className="mt-16 grid grid-cols-3 gap-6 max-w-sm mx-auto"
-        >
-          {[
-            { value: "50k+", label: "Clientas Felices" },
-            { value: "120+", label: "Productos" },
-            { value: "4.9", label: "Calificación" },
-          ].map((stat) => (
-            <div key={stat.label} className="text-center">
-              <p className="text-2xl font-bold" style={{ color: "#c2185b", fontFamily: "var(--font-playfair)" }}>
-                {stat.value}
-                {stat.label === "Calificación" && (
-                  <Star size={16} className="inline ml-1 mb-0.5" fill="#c2185b" strokeWidth={0} />
-                )}
-              </p>
-              <p className="text-xs mt-1" style={{ color: "#9c4062", fontFamily: "var(--font-lato)" }}>
-                {stat.label}
-              </p>
+          <div className="relative w-full aspect-[3/4] bg-[color:var(--accent-soft)]">
+            <div className="absolute inset-8 border border-[color:var(--border-strong)]" />
+            <div className="absolute inset-0 flex items-center justify-center p-16">
+              <Image
+                src="/p-logo.png"
+                alt="Monograma de Pink Pop"
+                width={220}
+                height={220}
+                className="w-48 h-auto opacity-80"
+                priority
+              />
             </div>
-          ))}
+            <p className="absolute bottom-6 left-6 text-[10px] font-medium tracking-[0.3em] uppercase text-[color:var(--muted)]">
+              Pink Pop Tienda de Belleza
+            </p>
+            <p className="absolute bottom-6 right-6 text-[10px] font-medium tracking-[0.3em] uppercase text-[color:var(--muted)]">
+              Est. MMXX
+            </p>
+          </div>
         </motion.div>
-      </div>
-
-      {/* Bottom wave */}
-      <div className="absolute bottom-0 left-0 right-0">
-        <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0 40 C360 80 1080 0 1440 40 L1440 80 L0 80 Z" fill="#fff5f7" />
-        </svg>
       </div>
     </section>
   );

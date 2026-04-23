@@ -2,70 +2,59 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Leaf, Heart, Recycle, Award, LucideIcon } from "lucide-react";
 
-const features: { Icon: LucideIcon; title: string; desc: string }[] = [
+const features = [
   {
-    Icon: Leaf,
-    title: "100% Natural",
-    desc: "Formulado con extractos botánicos puros, libre de parabenos, sulfatos y químicos agresivos.",
+    number: "01",
+    title: "Selección de calidad",
+    desc: "Elegimos productos por su desempeño, textura, pigmentación y acabado para ofrecer opciones que sí cumplen lo que prometen.",
   },
   {
-    Icon: Heart,
-    title: "Libre de Crueldad",
-    desc: "Nunca testado en animales. Nuestro ritual de belleza cuida a cada ser vivo del planeta.",
+    number: "02",
+    title: "Marcas reconocidas",
+    desc: "Trabajamos con referencias valoradas por su calidad y presentación, para que encuentres piezas confiables en un solo lugar.",
   },
   {
-    Icon: Recycle,
-    title: "Empaque Eco",
-    desc: "Empaques reciclables y biodegradables para que tu rutina de belleza le devuelva algo a la tierra.",
+    number: "03",
+    title: "Compra con criterio",
+    desc: "La tienda está organizada para ayudarte a comparar, descubrir y comprar maquillaje premium con más claridad y menos ruido.",
   },
   {
-    Icon: Award,
-    title: "Testado por Dermatólogos",
-    desc: "Probado y aprobado clínicamente para todo tipo de piel, incluida la piel sensible y reactiva.",
+    number: "04",
+    title: "Experiencia premium",
+    desc: "Cuidamos la presentación, la selección y el detalle para que comprar productos de belleza de alta calidad sea simple y agradable.",
   },
 ];
 
 function FeatureCard({
-  Icon,
+  number,
   title,
   desc,
   index,
 }: {
-  Icon: LucideIcon;
+  number: string;
   title: string;
   desc: string;
   index: number;
 }) {
   const ref = useRef(null);
-  const inView = useInView(ref, { once: true, margin: "-60px" });
+  const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
     <motion.div
       ref={ref}
-      initial={{ opacity: 0, y: 40 }}
+      initial={{ opacity: 0, y: 30 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
-      transition={{ duration: 0.6, delay: index * 0.12 }}
-      whileHover={{ y: -6, boxShadow: "0 16px 40px rgba(194,24,91,0.12)" }}
-      className="flex flex-col items-center text-center p-8 rounded-3xl border"
-      style={{ background: "linear-gradient(135deg, #fff0f5, #fce4ec)", borderColor: "#f8bbd0" }}
+      transition={{ duration: 0.7, delay: index * 0.1 }}
+      className="group border-t border-[color:var(--border)] pt-8"
     >
-      <motion.div
-        whileHover={{ scale: 1.2, rotate: 10 }}
-        transition={{ type: "spring", stiffness: 300 }}
-        className="mb-4 p-3 rounded-2xl"
-        style={{ background: "linear-gradient(135deg, #fce4ec, #f8bbd0)", color: "#c2185b" }}
-      >
-        <Icon size={36} strokeWidth={1.5} />
-      </motion.div>
-      <h3
-        className="text-lg font-bold mb-2"
-        style={{ fontFamily: "var(--font-playfair)", color: "#880e4f" }}
-      >
+      <p className="text-[11px] font-medium tracking-[0.3em] uppercase text-[color:var(--accent)] mb-6">
+        {number}
+      </p>
+      <h3 className="text-xl font-light tracking-tight text-[color:var(--foreground)] mb-4">
         {title}
       </h3>
-      <p className="text-sm leading-relaxed" style={{ color: "#9c4062", fontFamily: "var(--font-lato)" }}>
+      <p className="text-sm leading-relaxed text-[color:var(--muted)]">
         {desc}
       </p>
     </motion.div>
@@ -77,30 +66,24 @@ export default function Features() {
   const titleInView = useInView(titleRef, { once: true, margin: "-80px" });
 
   return (
-    <section className="py-24 px-6" style={{ background: "#fff5f7" }}>
-      <div className="max-w-6xl mx-auto">
+    <section id="standards" className="py-32 px-8 lg:px-12 bg-[color:var(--background)]">
+      <div className="max-w-7xl mx-auto">
         <motion.div
           ref={titleRef}
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 20 }}
           animate={titleInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-16"
+          transition={{ duration: 0.7 }}
+          className="max-w-3xl mb-20"
         >
-          <p
-            className="text-sm font-semibold uppercase tracking-widest mb-3"
-            style={{ color: "#ad1457", fontFamily: "var(--font-lato)" }}
-          >
-            Por qué Pink Pop
+          <p className="text-[11px] font-medium tracking-[0.4em] uppercase text-[color:var(--accent)] mb-6">
+            Nuestra propuesta
           </p>
-          <h2
-            className="text-4xl md:text-5xl font-bold"
-            style={{ fontFamily: "var(--font-playfair)", color: "#880e4f" }}
-          >
-            Hecho con Amor y Ciencia
+          <h2 className="text-4xl md:text-5xl font-light leading-[1.1] tracking-tight text-[color:var(--foreground)]">
+            Una tienda enfocada en vender calidad.
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-10 gap-y-12">
           {features.map((f, i) => (
             <FeatureCard key={f.title} {...f} index={i} />
           ))}

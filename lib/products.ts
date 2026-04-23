@@ -20,10 +20,10 @@ export type Product = {
 export const products: Product[] = [
   {
     id: 'chat-endless-luck-blusher',
-    name: 'The Endless Luck & Shine Blusher',
+    name: 'Rubor Endless Luck & Shine',
     brand: 'CHAT Cosmetics',
     description:
-      'Colorete mate con brillo que aporta color vibrante y radiante. Fórmula ligera con tecnología Oil Binding System para una aplicación uniforme y duradera. Incluye brocha de alta calidad. 3 g.',
+      'Un polvo refinado con acabado mate luminoso creado para ofrecer color preciso y duradero. La tecnología Oil Binding System asegura una aplicación uniforme y fijación durante todo el día. Incluye brocha distintiva. 3 g.',
     price: 59,
     image: 'https://www.nongchatmakeup.com/wp-content/uploads/2024/02/Product.All0133-scaled.jpg',
     images: [
@@ -34,19 +34,19 @@ export const products: Product[] = [
     ],
     category: 'blush',
     variants: [
-      { id: 'shade-01', name: 'Shade 01' },
-      { id: 'shade-02', name: 'Shade 02' },
-      { id: 'shade-03', name: 'Shade 03' },
-      { id: 'shade-04', name: 'Shade 04' },
-      { id: 'shade-05', name: 'Shade 05' },
+      { id: 'shade-01', name: 'Tono 01' },
+      { id: 'shade-02', name: 'Tono 02' },
+      { id: 'shade-03', name: 'Tono 03' },
+      { id: 'shade-04', name: 'Tono 04' },
+      { id: 'shade-05', name: 'Tono 05' },
     ],
   },
   {
     id: 'chat-professional-foundation',
-    name: 'Professional Foundation SPF15 PA+++',
+    name: 'Base profesional SPF15 PA+++',
     brand: 'CHAT Cosmetics',
     description:
-      'Base de larga duración con cobertura impecable y acabado natural. Minimiza poros con minerales, proteínas, vitamina E y extracto de aceite de jojoba. Retiene hidratación para una tez duradera.',
+      'Una base de larga duración que ofrece cobertura impecable y un acabado natural sobre la piel. Minerales, proteínas, vitamina E y jojoba perfeccionan el rostro mientras preservan la hidratación.',
     price: 29,
     image: 'https://www.nongchatmakeup.com/wp-content/uploads/2022/09/CHAT-Professional-Foundation-.jpg',
     images: [
@@ -57,10 +57,10 @@ export const products: Product[] = [
   },
   {
     id: 'chat-lasting-soft-matte-cushion',
-    name: 'Lasting Soft Matte Cushion SPF50PA',
+    name: 'Cushion Soft Matte de larga duración SPF50PA',
     brand: 'CHAT Cosmetics',
     description:
-      'Cushion de maquillaje con acabado mate suave y larga duración. Protección solar SPF50PA. Cobertura uniforme y textura ligera para una piel perfecta todo el día.',
+      'Una fórmula cushion de acabado mate suave con cobertura uniforme y duradera. Protección SPF50 PA++++, ligera sobre la piel y de acabado homogéneo.',
     price: 35,
     image:
       'https://www.nongchatmakeup.com/wp-content/uploads/2025/07/CHAT-Lasting-Soft-Matte-Cushion-SPF50PA-%E0%B8%84%E0%B8%B8%E0%B8%8A%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99-%E0%B8%8B%E0%B8%AD%E0%B8%9F%E0%B8%97%E0%B9%8C-%E0%B9%81%E0%B8%A1%E0%B8%97-%E0%B8%89%E0%B8%B1%E0%B8%95%E0%B8%A3-%E0%B8%9B%E0%B8%81.png',
@@ -73,10 +73,10 @@ export const products: Product[] = [
   },
   {
     id: 'chat-queen-iconic-palette',
-    name: 'The Queen Iconic Palette',
+    name: 'Paleta Queen Iconic',
     brand: 'CHAT Cosmetics',
     description:
-      'Paleta multifuncional todo en uno con corrector, contorno, labiales, sombras mate y con brillo, y rubor. Alta pigmentación y larga duración con mica, polvo de perla, aceite de macadamia, aloe vera y vitamina E.',
+      'Una paleta completa en un solo producto. Corrector, contorno, labios, sombras mate y satinadas, y rubor, formulados con mica, polvo de perla, aceite de macadamia, aloe y vitamina E. Alta pigmentación y larga duración.',
     price: 49,
     image: 'https://www.nongchatmakeup.com/wp-content/uploads/2023/12/CHAT-The-Queen-Iconic-Palette-1.jpg',
     images: [
@@ -88,7 +88,7 @@ export const products: Product[] = [
     category: 'palette',
     variants: [
       { id: 'royal-romance', name: 'Royal Romance' },
-      { id: 'rose', name: 'Rose' },
+      { id: 'rose', name: 'Rosa' },
     ],
   },
   {
@@ -96,7 +96,7 @@ export const products: Product[] = [
     name: 'Rose Hermès Silky Blush — Rose Abricot',
     brand: 'Hermès',
     description:
-      'Un rosa anaranjado aterciopelado, como un albaricoque bajo el sol. Polvo fino y sedoso con acabado semimate. Textura ultraligera y pigmentada. Recargable. 6 g. Fabricado en Italia.',
+      'Un albaricoque rosado aterciopelado. Polvo ultrafino prensado en seda, acabado semimate y pigmento ligero. Formato recargable. 6 g. Hecho en Italia.',
     price: 105,
     image: '/images/rose-abricot.webp',
     images: [
@@ -108,10 +108,10 @@ export const products: Product[] = [
   },
   {
     id: 'browit-highlight-contour-palette',
-    name: 'Highlight and Contour Pro Palette',
+    name: 'Paleta Pro de iluminador y contorno',
     brand: 'Browit',
     description:
-      'Paleta profesional con iluminador y 3 tonos de contorno para un look prominente y esculpido. Color altamente pigmentado. 3.5 g × 4 colores.',
+      'Una paleta para esculpir con un iluminador luminoso y tres tonos de contorno. Pigmentación intensa y gradación precisa. 3.5 g × 4.',
     price: 14.99,
     image: '/images/highlight-pro-palette.jpg',
     images: ['/images/highlight-pro-palette.jpg'],
@@ -121,7 +121,7 @@ export const products: Product[] = [
     id: 'louboutin-velvet-matte-001m',
     name: 'Rouge Louboutin Velvet Matte — 001M',
     brand: 'Christian Louboutin',
-    description: 'Labial mate de larga duración con acabado aterciopelado. Tono 001M.',
+    description: 'Labial mate de larga duración. Acabado aterciopelado y pigmento intenso. Tono 001M.',
     price: 105,
     image: '/images/rouge-louboutin-velvet-mate.jpg',
     images: ['/images/rouge-louboutin-velvet-mate.jpg'],
@@ -132,7 +132,7 @@ export const products: Product[] = [
     id: 'louboutin-velvet-matte-003g',
     name: 'Rouge Louboutin Velvet Matte — 003G',
     brand: 'Christian Louboutin',
-    description: 'Labial mate de larga duración con acabado aterciopelado. Tono 003G.',
+    description: 'Labial mate de larga duración. Acabado aterciopelado y pigmento intenso. Tono 003G.',
     price: 105,
     image: '/images/rouge-louboutin-velvet-mate.jpg',
     images: ['/images/rouge-louboutin-velvet-mate.jpg'],

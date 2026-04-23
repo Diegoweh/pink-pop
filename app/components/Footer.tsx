@@ -2,12 +2,12 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Flower2, Sparkles, Heart } from "lucide-react";
+import Image from "next/image";
 
 const footerLinks = {
-  Tienda: ["Skincare", "Labios", "Ojos", "Rostro", "Sets de Regalo"],
-  Empresa: ["Sobre Nosotros", "Empleos", "Prensa", "Blog"],
-  Soporte: ["Preguntas Frecuentes", "Contacto", "Devoluciones", "Rastrear Pedido"],
+  Colección: ["Rostro", "Labios", "Paletas", "Ediciones"],
+  Tienda: ["Nosotros", "Marcas", "Novedades", "Opiniones"],
+  Cliente: ["Consultas", "Servicios", "Envíos", "Devoluciones"],
 };
 
 export default function Footer() {
@@ -15,109 +15,85 @@ export default function Footer() {
   const inView = useInView(ref, { once: true, margin: "-60px" });
 
   return (
-    <footer
-      id="contact"
-      ref={ref}
-      style={{ background: "linear-gradient(180deg, #fce4ec 0%, #f8bbd0 100%)" }}
-    >
-      {/* CTA Banner */}
+    <footer id="contact" ref={ref} className="bg-[color:var(--surface)] border-t border-[color:var(--border)]">
       <motion.div
-        initial={{ opacity: 0, y: 30 }}
+        initial={{ opacity: 0, y: 20 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.6 }}
-        className="py-16 px-6 text-center"
-        style={{ background: "linear-gradient(135deg, #e91e63, #ad1457)" }}
+        transition={{ duration: 0.7 }}
+        className="max-w-7xl mx-auto px-8 lg:px-12 py-24 grid grid-cols-1 lg:grid-cols-2 gap-16 items-start border-b border-[color:var(--border)]"
       >
-        <h2
-          className="flex items-center justify-center gap-3 text-3xl md:text-4xl font-bold text-white mb-4"
-          style={{ fontFamily: "var(--font-playfair)" }}
-        >
-          <Flower2 size={32} strokeWidth={1.5} />
-          Únete a la Familia Pink Pop
-          <Flower2 size={32} strokeWidth={1.5} />
-        </h2>
-        <p className="text-pink-100 mb-8 max-w-md mx-auto" style={{ fontFamily: "var(--font-lato)" }}>
-          Suscríbete para recibir ofertas exclusivas, consejos de belleza y acceso anticipado a los nuevos lanzamientos.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto justify-center">
-          <input
-            type="email"
-            placeholder="tu@correo.com"
-            className="flex-1 px-5 py-3 rounded-full text-sm outline-none border-2 border-transparent focus:border-pink-200"
-            style={{ background: "rgba(255,255,255,0.95)", color: "#880e4f", fontFamily: "var(--font-lato)" }}
-          />
-          <motion.button
-            whileHover={{ scale: 1.05, boxShadow: "0 6px 24px rgba(0,0,0,0.2)" }}
-            whileTap={{ scale: 0.97 }}
-            className="flex items-center justify-center gap-2 px-6 py-3 rounded-full font-semibold text-sm whitespace-nowrap"
-            style={{ background: "#fff", color: "#c2185b", fontFamily: "var(--font-lato)" }}
-          >
-            <Sparkles size={14} />
-            Suscribirme
-          </motion.button>
+        <div>
+          <p className="text-[11px] font-medium tracking-[0.4em] uppercase text-[color:var(--accent)] mb-6">
+            Mantente al tanto
+          </p>
+          <h2 className="text-3xl md:text-4xl font-light leading-[1.15] tracking-tight text-[color:var(--foreground)] max-w-lg">
+            Recibe novedades, productos destacados y selecciones especiales de maquillaje de alta calidad.
+          </h2>
+        </div>
+        <div className="w-full max-w-md">
+          <label className="block text-[11px] font-medium tracking-[0.3em] uppercase text-[color:var(--muted)] mb-4">
+            Correo electrónico
+          </label>
+          <div className="flex border-b border-[color:var(--foreground)] pb-3">
+            <input
+              type="email"
+              placeholder="name@domain.com"
+              className="flex-1 bg-transparent text-sm text-[color:var(--foreground)] placeholder:text-[color:var(--subtle)] outline-none"
+            />
+            <button className="text-[11px] font-semibold tracking-[0.3em] uppercase text-[color:var(--foreground)] hover:text-[color:var(--accent)] transition-colors">
+              Suscribirse
+            </button>
+          </div>
+          <p className="mt-4 text-xs text-[color:var(--subtle)]">
+            La suscripción es privada y puede cancelarse en cualquier momento.
+          </p>
         </div>
       </motion.div>
 
-      {/* Footer links */}
-      <div className="max-w-6xl mx-auto px-6 py-14 grid grid-cols-2 md:grid-cols-4 gap-8">
-        {/* Brand */}
+      <div className="max-w-7xl mx-auto px-8 lg:px-12 py-20 grid grid-cols-2 md:grid-cols-4 gap-12">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 15 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.5, delay: 0.1 }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+          className="col-span-2 md:col-span-1"
         >
-          <div className="flex items-center gap-2 mb-4">
-            <Flower2 size={22} style={{ color: "#e91e63" }} strokeWidth={1.5} />
-            <span
-              className="text-xl font-bold"
-              style={{ fontFamily: "var(--font-playfair)", color: "#880e4f" }}
-            >
+          <div className="flex items-center mb-6">
+            <Image
+              src="/p-logo.png"
+              alt="Pink Pop"
+              width={40}
+              height={40}
+              className="h-8 w-auto"
+            />
+            <span className="ml-3 text-sm font-medium tracking-[0.3em] uppercase text-[color:var(--foreground)]">
               Pink Pop
             </span>
           </div>
-          <p className="text-sm leading-relaxed" style={{ color: "#9c4062", fontFamily: "var(--font-lato)" }}>
-            Belleza creada con amor, ciencia y mucha magia rosa.
+          <p className="text-sm leading-relaxed text-[color:var(--muted)] max-w-xs">
+            Tienda especializada en maquillaje de alta calidad, con una selección cuidada
+            para comprar mejor y elegir con confianza.
           </p>
-          <div className="flex gap-3 mt-5">
-            {["Instagram", "TikTok", "Pinterest"].map((social) => (
-              <motion.button
-                key={social}
-                whileHover={{ scale: 1.15, rotate: 5 }}
-                className="w-9 h-9 rounded-full flex items-center justify-center text-xs font-bold text-white"
-                style={{ background: "linear-gradient(135deg, #f48fb1, #c2185b)" }}
-                title={social}
-              >
-                {social[0]}
-              </motion.button>
-            ))}
-          </div>
         </motion.div>
 
-        {/* Links */}
         {Object.entries(footerLinks).map(([category, links], ci) => (
           <motion.div
             key={category}
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 15 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.15 + ci * 0.1 }}
+            transition={{ duration: 0.6, delay: 0.15 + ci * 0.08 }}
           >
-            <h4
-              className="font-bold text-sm mb-4 uppercase tracking-wide"
-              style={{ color: "#880e4f", fontFamily: "var(--font-lato)" }}
-            >
+            <h4 className="text-[11px] font-semibold tracking-[0.3em] uppercase text-[color:var(--foreground)] mb-6">
               {category}
             </h4>
-            <ul className="space-y-2">
+            <ul className="space-y-3">
               {links.map((link) => (
                 <li key={link}>
-                  <motion.a
+                  <a
                     href="#"
-                    whileHover={{ x: 4, color: "#c2185b" }}
-                    className="text-sm transition-colors"
-                    style={{ color: "#9c4062", fontFamily: "var(--font-lato)" }}
+                    className="text-sm text-[color:var(--muted)] hover:text-[color:var(--accent)] transition-colors"
                   >
                     {link}
-                  </motion.a>
+                  </a>
                 </li>
               ))}
             </ul>
@@ -125,17 +101,23 @@ export default function Footer() {
         ))}
       </div>
 
-      {/* Bottom bar */}
-      <div
-        className="border-t py-6 px-6 flex flex-col sm:flex-row items-center justify-between gap-2 max-w-6xl mx-auto"
-        style={{ borderColor: "#f8bbd0" }}
-      >
-        <p className="text-xs" style={{ color: "#9c4062", fontFamily: "var(--font-lato)" }}>
-          © 2026 Pink Pop Cosmetics. Todos los derechos reservados.
-        </p>
-        <p className="flex items-center gap-1.5 text-xs" style={{ color: "#c2185b", fontFamily: "var(--font-lato)" }}>
-          Hecho con <Heart size={12} fill="#c2185b" strokeWidth={0} /> para amantes de la belleza en todo el mundo
-        </p>
+      <div className="border-t border-[color:var(--border)]">
+        <div className="max-w-7xl mx-auto px-8 lg:px-12 py-8 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <p className="text-[11px] tracking-[0.2em] uppercase text-[color:var(--subtle)]">
+            © MMXXVI Pink Pop — Todos los derechos reservados
+          </p>
+          <div className="flex gap-8">
+            {["Instagram", "Diario", "Privacidad"].map((item) => (
+              <a
+                key={item}
+                href="#"
+                className="text-[11px] tracking-[0.2em] uppercase text-[color:var(--subtle)] hover:text-[color:var(--foreground)] transition-colors"
+              >
+                {item}
+              </a>
+            ))}
+          </div>
+        </div>
       </div>
     </footer>
   );
