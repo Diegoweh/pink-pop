@@ -39,19 +39,19 @@ export const products: Product[] = [
       { id: 'shade-05', name: 'Tono 05' },
     ],
   },
-  {
-    id: 'chat-professional-foundation',
-    name: 'Base profesional SPF15 PA+++',
-    brand: 'CHAT Cosmetics',
-    description:
-      'Una base de larga duración que ofrece cobertura impecable y un acabado natural sobre la piel. Minerales, proteínas, vitamina E y jojoba perfeccionan el rostro mientras preservan la hidratación.',
-    price: 29,
-    image: 'https://www.nongchatmakeup.com/wp-content/uploads/2022/09/CHAT-Professional-Foundation-.jpg',
-    images: [
-      'https://www.nongchatmakeup.com/wp-content/uploads/2022/09/CHAT-Professional-Foundation-.jpg',
-    ],
-    category: 'foundation',
-  },
+  // {
+  //   id: 'chat-professional-foundation',
+  //   name: 'Base profesional SPF15 PA+++',
+  //   brand: 'CHAT Cosmetics',
+  //   description:
+  //     'Una base de larga duración que ofrece cobertura impecable y un acabado natural sobre la piel. Minerales, proteínas, vitamina E y jojoba perfeccionan el rostro mientras preservan la hidratación.',
+  //   price: 29,
+  //   image: 'https://www.nongchatmakeup.com/wp-content/uploads/2022/09/CHAT-Professional-Foundation-.jpg',
+  //   images: [
+  //     'https://www.nongchatmakeup.com/wp-content/uploads/2022/09/CHAT-Professional-Foundation-.jpg',
+  //   ],
+  //   category: 'foundation',
+  // },
 ];
 
 export function getProductById(id: string): Product | undefined {

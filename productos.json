@@ -361,7 +361,7 @@
   },
   {
     "categoria": "CORRECTOR",
-    "marca": "VELENTINO",
+    "marca": "VALENTINO",
     "producto": "LIQUID CONCEALER",
     "tono": "LIGHT NEUTRAL",
     "stock": 1,
@@ -578,7 +578,7 @@
   {
     "categoria": "POLVO",
     "marca": "BEAUTY CREATIONS",
-    "producto": "POLVO COMPACTO",
+    "producto": "POLVO",
     "tono": "VARIOS COLOR",
     "stock": 47,
     "precio": 240
@@ -1274,16 +1274,16 @@
   {
     "categoria": "SOMBRAS ",
     "marca": "CHAT COSMETICS",
-    "producto": "SOMBRAS DE OJOS ROYALTY ROMANCE",
-    "tono": "N/A",
+    "producto": "SOMBRAS DE OJOS",
+    "tono": "ROYALTY ROMANCE",
     "stock": 2,
     "precio": 1500
   },
   {
     "categoria": "SOMBRAS ",
     "marca": "CHAT COSMETICS",
-    "producto": "SOMBRAS DE OJOS ROSE COUTURE",
-    "tono": "N/A",
+    "producto": "SOMBRAS DE OJOS",
+    "tono": "ROSE COUTURE",
     "stock": 2,
     "precio": 1500
   },
@@ -1346,16 +1346,16 @@
   {
     "categoria": "SOMBRAS ",
     "marca": "NATASHA DENONA ",
-    "producto": " SOMBRAS DE OJOS YUCCA PALETTE",
-    "tono": "N/A",
+    "producto": "SOMBRAS DE OJOS",
+    "tono": "YUCCA PALETTE",
     "stock": 1,
     "precio": 2300
   },
   {
     "categoria": "SOMBRAS ",
     "marca": "NATASHA DENONA ",
-    "producto": "SOMBRAS DE OJOS NUDE PALETTE",
-    "tono": "N/A",
+    "producto": "SOMBRAS DE OJOS",
+    "tono": "NUDE PALETTE",
     "stock": 1,
     "precio": 2300
   },
@@ -1370,32 +1370,32 @@
   {
     "categoria": "SOMBRAS ",
     "marca": "MORPHE",
-    "producto": "SOMBRAS DE OJOS RICH GLITCH",
-    "tono": "N/A",
+    "producto": "SOMBRAS DE OJOS",
+    "tono": "RICH GLITCH",
     "stock": 1,
     "precio": 660
   },
   {
     "categoria": "SOMBRAS ",
     "marca": "MORPHE",
-    "producto": "SOMBRAS DE OJOS OUTER SPICE",
-    "tono": "N/A",
+    "producto": "SOMBRAS DE OJOS",
+    "tono": "OUTER SPICE",
     "stock": 2,
     "precio": 660
   },
   {
     "categoria": "SOMBRAS ",
     "marca": "MORPHE",
-    "producto": "SOMBRAS DE OJOS PYTHON CODE",
-    "tono": "N/A",
+    "producto": "SOMBRAS DE OJOS",
+    "tono": "PYTHON CODE",
     "stock": 1,
     "precio": 660
   },
   {
     "categoria": "SOMBRAS ",
     "marca": "MORPHE",
-    "producto": "SOMBRAS DE OJOS LOVE BYTE ",
-    "tono": "N/A",
+    "producto": "SOMBRAS DE OJOS",
+    "tono": "LOVE BYTE",
     "stock": 2,
     "precio": 660
   },
@@ -1426,7 +1426,7 @@
   {
     "categoria": "LABIALES",
     "marca": "CHRISTIAN LOUBOUTIN",
-    "producto": "EN ESTUCHE NEGRO LIPSTICK",
+    "producto": "EN ESTUCHE NEGRO",
     "tono": "RED ROUGE",
     "stock": 3,
     "precio": 1400
@@ -1450,7 +1450,7 @@
   {
     "categoria": "LABIALES",
     "marca": "CLINIQUE",
-    "producto": "SET DE DE LABIALES 4 COLORES",
+    "producto": "SET DE LABIALES 4 COLORES",
     "tono": "VARIOS COLORES",
     "stock": 5,
     "precio": 1700
@@ -1458,7 +1458,7 @@
   {
     "categoria": "LABIALES",
     "marca": "KIKO MILANO",
-    "producto": "COSMTIQUERA CON LIP Y DELINEADOR",
+    "producto": "COSMETIQUERA CON LIP Y DELINEADOR",
     "tono": "N/A",
     "stock": 1,
     "precio": 1100
@@ -1505,7 +1505,7 @@
   },
   {
     "categoria": "LABIALES",
-    "marca": "PAT MACGRATH",
+    "marca": "PAT MCGRATH",
     "producto": "LIPSTICK",
     "tono": "APHRODISIAC",
     "stock": 4,
@@ -1513,7 +1513,7 @@
   },
   {
     "categoria": "LABIALES",
-    "marca": "PAT MACGRATH",
+    "marca": "PAT MCGRATH",
     "producto": "LIPSTICK",
     "tono": "FLESH 4",
     "stock": 3,
@@ -1521,7 +1521,7 @@
   },
   {
     "categoria": "LABIALES",
-    "marca": "PAT MACGRATH",
+    "marca": "PAT MCGRATH",
     "producto": "LIPSTICK",
     "tono": "SECRET LOVE",
     "stock": 3,
@@ -1529,7 +1529,7 @@
   },
   {
     "categoria": "LABIALES",
-    "marca": "PAT MACGRATH",
+    "marca": "PAT MCGRATH",
     "producto": "LIPSTICK",
     "tono": "GULINEVERE",
     "stock": 4,
@@ -1658,7 +1658,7 @@
   {
     "categoria": "LABIALES",
     "marca": "DIOR",
-    "producto": "DIOR LIP GLOW",
+    "producto": "LIP GLOW",
     "tono": "PINK",
     "stock": 2,
     "precio": 900
@@ -1666,7 +1666,7 @@
   {
     "categoria": "LABIALES",
     "marca": "DIOR ",
-    "producto": "DIOR LIP GLOW",
+    "producto": "LIP GLOW",
     "tono": "CORAL",
     "stock": 2,
     "precio": 900
@@ -1874,7 +1874,7 @@
   {
     "categoria": "LABIALES",
     "marca": "MOIRA BEAUTY",
-    "producto": "LIP CHIC  LINER",
+    "producto": "LIP CHIC LINER",
     "tono": "TIMELESS",
     "stock": 5,
     "precio": 180
@@ -1882,7 +1882,7 @@
   {
     "categoria": "LABIALES",
     "marca": "MOIRA BEAUTY",
-    "producto": "LIP CHIC  LINER",
+    "producto": "LIP CHIC LINER",
     "tono": "LUXE",
     "stock": 5,
     "precio": 180
@@ -1890,7 +1890,7 @@
   {
     "categoria": "LABIALES",
     "marca": "MOIRA BEAUTY",
-    "producto": "LIP CHIC  LINER",
+    "producto": "LIP CHIC LINER",
     "tono": "MISE",
     "stock": 6,
     "precio": 180
@@ -1898,7 +1898,7 @@
   {
     "categoria": "LABIALES",
     "marca": "MOIRA BEAUTY",
-    "producto": "LIP CHIC  LINER",
+    "producto": "LIP CHIC LINER",
     "tono": "NOSTALGIA",
     "stock": 6,
     "precio": 180
@@ -1906,7 +1906,7 @@
   {
     "categoria": "LABIALES",
     "marca": "MOIRA BEAUTY",
-    "producto": "LIP CHIC  LINER",
+    "producto": "LIP CHIC LINER",
     "tono": "RETRO",
     "stock": 6,
     "precio": 180
@@ -1914,7 +1914,7 @@
   {
     "categoria": "LABIALES",
     "marca": "MOIRA BEAUTY",
-    "producto": "LIP CHIC  LINER",
+    "producto": "LIP CHIC LINER",
     "tono": "EDGY",
     "stock": 6,
     "precio": 180
@@ -1922,7 +1922,7 @@
   {
     "categoria": "LABIALES",
     "marca": "MOIRA BEAUTY",
-    "producto": "LIP CHIC  LINER",
+    "producto": "LIP CHIC LINER",
     "tono": "ICON",
     "stock": 6,
     "precio": 180
@@ -1930,7 +1930,7 @@
   {
     "categoria": "LABIALES",
     "marca": "MOIRA BEAUTY",
-    "producto": "LIP CHIC  LINER",
+    "producto": "LIP CHIC LINER",
     "tono": "COOL GIRL",
     "stock": 6,
     "precio": 180

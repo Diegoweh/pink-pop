@@ -61,6 +61,7 @@ export default function ProductCard({
               fill
               className="object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.04]"
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+              priority={index < 4}
             />
           ) : (
             <div className="absolute inset-0 flex items-center justify-center">

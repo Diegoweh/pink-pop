@@ -40,7 +40,7 @@ export default async function ProductPage({
           <p className="text-[10px] font-medium tracking-[0.3em] uppercase text-[color:var(--subtle)] mb-12">
             <a href="/" className="hover:text-[color:var(--foreground)] transition-colors">Inicio</a>
             {' '}·{' '}
-            <a href="/#products" className="hover:text-[color:var(--foreground)] transition-colors">Productos</a>
+            <a href="/coleccion" className="hover:text-[color:var(--foreground)] transition-colors">Productos</a>
             {' '}·{' '}
             <span className="text-[color:var(--foreground)]">{product.producto}</span>
           </p>
