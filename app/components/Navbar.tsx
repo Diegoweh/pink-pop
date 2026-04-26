@@ -5,11 +5,11 @@ import { useState } from "react";
 import Image from "next/image";
 
 const links = [
-  { label: "Colección", href: "#products" },
-  { label: "Nosotros", href: "#about" },
-  { label: "Calidad", href: "#standards" },
-  { label: "Opiniones", href: "#testimonials" },
-  { label: "Contacto", href: "#contact" },
+  { label: "Colección", href: "/coleccion" },
+  { label: "Nosotros", href: "/#about" },
+  { label: "Calidad", href: "/#standards" },
+  { label: "Opiniones", href: "/#testimonials" },
+  { label: "Contacto", href: "/#contact" },
 ];
 
 export default function Navbar() {
@@ -24,7 +24,7 @@ export default function Navbar() {
       className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md border-b"
     >
       <div className="max-w-7xl mx-auto px-8 lg:px-12 h-20 flex items-center justify-between">
-        <a href="#" className="flex items-center py-4">
+        <a href="/" className="flex items-center py-4">
           <Image
             src="/p-logo.png"
             alt="Pink Pop"
@@ -49,7 +49,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="#products"
+            href="/coleccion"
             className="px-6 py-2.5 text-xs font-semibold tracking-[0.2em] uppercase text-white bg-[color:var(--foreground)] hover:bg-[color:var(--accent)] transition-colors duration-300"
           >
             Comprar

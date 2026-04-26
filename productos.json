@@ -1,0 +1,2146 @@
+[
+  {
+    "categoria": "BASE",
+    "marca": "CHAT COSMETICS",
+    "producto": "PROFESIONAL COVER",
+    "tono": 1,
+    "stock": 2,
+    "precio": 1200
+  },
+  {
+    "categoria": "BASE",
+    "marca": "CHAT COSMETICS",
+    "producto": "PROFESIONAL COVER",
+    "tono": 2,
+    "stock": 2,
+    "precio": 1200
+  },
+  {
+    "categoria": "BASE",
+    "marca": "CHAT COSMETICS",
+    "producto": "PROFESIONAL COVER",
+    "tono": 2.5,
+    "stock": 2,
+    "precio": 1200
+  },
+  {
+    "categoria": "BASE",
+    "marca": "CHAT COSMETICS",
+    "producto": "SILKY COVER STICK",
+    "tono": 2,
+    "stock": 2,
+    "precio": 1300
+  },
+  {
+    "categoria": "BASE",
+    "marca": "CHAT COSMETICS",
+    "producto": "SILKY COVER STICK",
+    "tono": 2.5,
+    "stock": 3,
+    "precio": 1300
+  },
+  {
+    "categoria": "BASE",
+    "marca": "CHAT COSMETICS",
+    "producto": "CUSHION SOFT MATTE",
+    "tono": 2,
+    "stock": 3,
+    "precio": 1300
+  },
+  {
+    "categoria": "BASE",
+    "marca": "LAURA MERCIER",
+    "producto": "FOUNDATION",
+    "tono": "2N1",
+    "stock": 2,
+    "precio": 1300
+  },
+  {
+    "categoria": "BASE",
+    "marca": "LAURA MERCIER",
+    "producto": "FOUNDATION",
+    "tono": "1N2",
+    "stock": 2,
+    "precio": 1300
+  },
+  {
+    "categoria": "BASE",
+    "marca": "LAURA MERCIER",
+    "producto": "FOUNDATION",
+    "tono": "1N1",
+    "stock": 1,
+    "precio": 1300
+  },
+  {
+    "categoria": "BASE",
+    "marca": "TOO FACED",
+    "producto": "FOUNDATION",
+    "tono": "ALMOND",
+    "stock": 2,
+    "precio": 970
+  },
+  {
+    "categoria": "BASE",
+    "marca": "TOO FACED",
+    "producto": "FOUNDATION",
+    "tono": "GOLGEN BEIGE",
+    "stock": 1,
+    "precio": 970
+  },
+  {
+    "categoria": "BASE",
+    "marca": "KIKO MILANO",
+    "producto": "FOUNDATION",
+    "tono": "3G",
+    "stock": 2,
+    "precio": 600
+  },
+  {
+    "categoria": "BASE",
+    "marca": "KIKO MILANO",
+    "producto": "FOUNDATION",
+    "tono": "4.5N",
+    "stock": 2,
+    "precio": 600
+  },
+  {
+    "categoria": "BASE",
+    "marca": "KIKO MILANO",
+    "producto": "FOUNDATION",
+    "tono": "4.5G",
+    "stock": 2,
+    "precio": 600
+  },
+  {
+    "categoria": "BASE",
+    "marca": "KIKO MILANO",
+    "producto": "FOUNDATION",
+    "tono": "5R",
+    "stock": 2,
+    "precio": 600
+  },
+  {
+    "categoria": "BASE",
+    "marca": "DIOR",
+    "producto": "BACKSTAGE FOUNDATION",
+    "tono": "3.5N",
+    "stock": 1,
+    "precio": 1300
+  },
+  {
+    "categoria": "BASE",
+    "marca": "DIOR",
+    "producto": "BACKSTAGE FOUNDATION",
+    "tono": "5N",
+    "stock": 2,
+    "precio": 1300
+  },
+  {
+    "categoria": "BASE",
+    "marca": "DIOR",
+    "producto": "BACKSTAGE FOUNDATION",
+    "tono": "6N",
+    "stock": 2,
+    "precio": 1300
+  },
+  {
+    "categoria": "BASE",
+    "marca": "FENTY BEAUTY",
+    "producto": "FOUNDATION",
+    "tono": 175,
+    "stock": 1,
+    "precio": 400
+  },
+  {
+    "categoria": "BASE",
+    "marca": "FENTY BEAUTY",
+    "producto": "FOUNDATION",
+    "tono": 210,
+    "stock": 1,
+    "precio": 400
+  },
+  {
+    "categoria": "BASE",
+    "marca": "FENTY BEAUTY",
+    "producto": "FOUNDATION",
+    "tono": 265,
+    "stock": 1,
+    "precio": 400
+  },
+  {
+    "categoria": "BASE",
+    "marca": "NARS",
+    "producto": "FOUNDATION",
+    "tono": "SIBERIA",
+    "stock": 1,
+    "precio": 1070
+  },
+  {
+    "categoria": "BASE",
+    "marca": "NARS",
+    "producto": "FOUNDATION",
+    "tono": "MONT BLANC",
+    "stock": 2,
+    "precio": 1070
+  },
+  {
+    "categoria": "BASE",
+    "marca": "NARS",
+    "producto": "FOUNDATION",
+    "tono": "GOBI",
+    "stock": 2,
+    "precio": 1070
+  },
+  {
+    "categoria": "BASE",
+    "marca": "NARS",
+    "producto": "FOUNDATION",
+    "tono": "SANTA FE",
+    "stock": 2,
+    "precio": 1070
+  },
+  {
+    "categoria": "BASE",
+    "marca": "AMUSE COSMETICS",
+    "producto": "FOUNDATION",
+    "tono": "NEUTRAL",
+    "stock": 12,
+    "precio": 250
+  },
+  {
+    "categoria": "BASE",
+    "marca": "BEAUTY CREATION",
+    "producto": "FOUNDATION",
+    "tono": 2,
+    "stock": 6,
+    "precio": 250
+  },
+  {
+    "categoria": "BASE",
+    "marca": "BEAUTY CREATION",
+    "producto": "FOUNDATION",
+    "tono": 2.5,
+    "stock": 6,
+    "precio": 250
+  },
+  {
+    "categoria": "BASE",
+    "marca": "BEAUTY CREATION",
+    "producto": "FOUNDATION",
+    "tono": 3,
+    "stock": 6,
+    "precio": 250
+  },
+  {
+    "categoria": "BASE",
+    "marca": "BEAUTY CREATION",
+    "producto": "FOUNDATION",
+    "tono": 3.5,
+    "stock": 6,
+    "precio": 250
+  },
+  {
+    "categoria": "BASE",
+    "marca": "BEAUTY CREATION",
+    "producto": "FOUNDATION",
+    "tono": 4,
+    "stock": 6,
+    "precio": 250
+  },
+  {
+    "categoria": "BASE",
+    "marca": "BEAUTY CREATION",
+    "producto": "FOUNDATION",
+    "tono": 4.5,
+    "stock": 6,
+    "precio": 250
+  },
+  {
+    "categoria": "BASE",
+    "marca": "BEAUTY CREATION",
+    "producto": "FOUNDATION",
+    "tono": 5,
+    "stock": 6,
+    "precio": 250
+  },
+  {
+    "categoria": "BASE",
+    "marca": "BEAUTY CREATION",
+    "producto": "FOUNDATION",
+    "tono": 5.5,
+    "stock": 6,
+    "precio": 250
+  },
+  {
+    "categoria": "BASE",
+    "marca": "BEAUTY CREATION",
+    "producto": "FOUNDATION",
+    "tono": 6,
+    "stock": 6,
+    "precio": 250
+  },
+  {
+    "categoria": "BASE",
+    "marca": "BEAUTY CREATION",
+    "producto": "FOUNDATION",
+    "tono": 6.5,
+    "stock": 6,
+    "precio": 250
+  },
+  {
+    "categoria": "BASE",
+    "marca": "BEAUTY CREATION",
+    "producto": "FOUNDATION",
+    "tono": 7,
+    "stock": 6,
+    "precio": 250
+  },
+  {
+    "categoria": "BASE",
+    "marca": "BEAUTY CREATION",
+    "producto": "FOUNDATION",
+    "tono": 7.5,
+    "stock": 6,
+    "precio": 250
+  },
+  {
+    "categoria": "BASE",
+    "marca": "BEAUTY CREATION",
+    "producto": "FOUNDATION",
+    "tono": 8,
+    "stock": 6,
+    "precio": 250
+  },
+  {
+    "categoria": "BASE",
+    "marca": "BEAUTY CREATION",
+    "producto": "FOUNDATION",
+    "tono": 8.5,
+    "stock": 6,
+    "precio": 250
+  },
+  {
+    "categoria": "BASE",
+    "marca": "ONE SIZE",
+    "producto": "FOUNDATION",
+    "tono": "LIGHT 30N",
+    "stock": 2,
+    "precio": 1300
+  },
+  {
+    "categoria": "BASE",
+    "marca": "ONE SIZE",
+    "producto": "FOUNDATION",
+    "tono": "LIGHT 35N",
+    "stock": 2,
+    "precio": 1300
+  },
+  {
+    "categoria": "BASE",
+    "marca": "ONE SIZE",
+    "producto": "FOUNDATION",
+    "tono": "MEDIUM 10N",
+    "stock": 2,
+    "precio": 1300
+  },
+  {
+    "categoria": "BASE",
+    "marca": "ONE SIZE",
+    "producto": "FOUNDATION",
+    "tono": "MEDIUM 40 G",
+    "stock": 2,
+    "precio": 1300
+  },
+  {
+    "categoria": "BASE",
+    "marca": "ONE SIZE",
+    "producto": "FOUNDATION",
+    "tono": "MEDIUM DARK ",
+    "stock": 2,
+    "precio": 1300
+  },
+  {
+    "categoria": "CORRECTOR",
+    "marca": "VELENTINO",
+    "producto": "LIQUID CONCEALER",
+    "tono": "LIGHT NEUTRAL",
+    "stock": 1,
+    "precio": 1100
+  },
+  {
+    "categoria": "CORRECTOR",
+    "marca": "VALENTINO",
+    "producto": "LIQUID CONCEALER",
+    "tono": "MEDIUM AMBER",
+    "stock": 1,
+    "precio": 1100
+  },
+  {
+    "categoria": "CORRECTOR",
+    "marca": "LAURA GELLER ",
+    "producto": "LIQUID CONCEALER",
+    "tono": "LIGHT NEUTRAL",
+    "stock": 2,
+    "precio": 900
+  },
+  {
+    "categoria": "CORRECTOR",
+    "marca": "LAURA GELLER ",
+    "producto": "LIQUID CONCEALER",
+    "tono": "FAIR",
+    "stock": 2,
+    "precio": 900
+  },
+  {
+    "categoria": "CORRECTOR",
+    "marca": "ANASTASIA",
+    "producto": "LIQUID CONCEALER",
+    "tono": "TONO6",
+    "stock": 2,
+    "precio": 780
+  },
+  {
+    "categoria": "CORRECTOR",
+    "marca": "ANASTASIA",
+    "producto": "LIQUID CONCEALER",
+    "tono": "TONO15",
+    "stock": 2,
+    "precio": 780
+  },
+  {
+    "categoria": "CORRECTOR",
+    "marca": "SIIA COSMETICS",
+    "producto": "LIQUID CONCEALER",
+    "tono": "CASHEW 301",
+    "stock": 3,
+    "precio": 550
+  },
+  {
+    "categoria": "CORRECTOR",
+    "marca": "SIIA COSMETICS",
+    "producto": "LIQUID CONCEALER",
+    "tono": "MACADAMIA",
+    "stock": 2,
+    "precio": 550
+  },
+  {
+    "categoria": "CORRECTOR",
+    "marca": "SIIA COSMETICS",
+    "producto": "LIQUID CONCEALER",
+    "tono": "WINGER C302",
+    "stock": 3,
+    "precio": 550
+  },
+  {
+    "categoria": "CORRECTOR",
+    "marca": "SIIA COSMETICS",
+    "producto": "LIQUID CONCEALER",
+    "tono": "WALNUT W302",
+    "stock": 3,
+    "precio": 550
+  },
+  {
+    "categoria": "CORRECTOR",
+    "marca": "SIIA COSMETICS",
+    "producto": "LIQUID CONCEALER",
+    "tono": "HAZELNUT 303",
+    "stock": 2,
+    "precio": 550
+  },
+  {
+    "categoria": "CORRECTOR",
+    "marca": "LA.A. GIRL",
+    "producto": "LIQUID CONCEALER",
+    "tono": "VARIEDAD",
+    "stock": 34,
+    "precio": 140
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "LAURA MERCIER",
+    "producto": "POLVO",
+    "tono": "TRANSLUCENT",
+    "stock": 5,
+    "precio": 1000
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "LAURA MERCIER",
+    "producto": "POLVO",
+    "tono": "TRANSLUCENT",
+    "stock": 3,
+    "precio": 675
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "LAURA MERCIER",
+    "producto": "POLVO",
+    "tono": "INDULGENT ",
+    "stock": 3,
+    "precio": 1100
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "FLORASIS",
+    "producto": "POLVO",
+    "tono": "NEUTRAL",
+    "stock": 2,
+    "precio": 1500
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "JEFFREE STAR",
+    "producto": "POLVO",
+    "tono": "PINK ",
+    "stock": 2,
+    "precio": 950
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "JEFFREE STAR",
+    "producto": "POLVO",
+    "tono": "PEACH",
+    "stock": 2,
+    "precio": 950
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "JEFFREE STAR",
+    "producto": "POLVO",
+    "tono": "BANNANA",
+    "stock": 2,
+    "precio": 950
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "JEFFREE STAR",
+    "producto": "POLVO",
+    "tono": "BEIGE",
+    "stock": 2,
+    "precio": 950
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "ONE SIZE",
+    "producto": "POLVO",
+    "tono": "SWEET HONEY",
+    "stock": 2,
+    "precio": 1100
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "ONE SIZE",
+    "producto": "POLVO",
+    "tono": "TRANSLUCENT",
+    "stock": 1,
+    "precio": 1100
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "ONE SIZE",
+    "producto": "POLVO",
+    "tono": "DARK/DEEP",
+    "stock": 1,
+    "precio": 600
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "ONE SIZE",
+    "producto": "POLVO",
+    "tono": "RICH PEACH",
+    "stock": 1,
+    "precio": 600
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "ONE SIZE",
+    "producto": "POLVO",
+    "tono": "MARIGOLD",
+    "stock": 1,
+    "precio": 600
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "NARS",
+    "producto": "POLVO",
+    "tono": "CRYSTAL",
+    "stock": 3,
+    "precio": 980
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "MOIRA BEAUTY",
+    "producto": "POLVO",
+    "tono": "08 PINK",
+    "stock": 4,
+    "precio": 320
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "BEAUTY CREATIONS",
+    "producto": "POLVO COMPACTO",
+    "tono": "VARIOS COLOR",
+    "stock": 47,
+    "precio": 240
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "AMUSE",
+    "producto": "POLVO",
+    "tono": "PINK & PEACH",
+    "stock": 12,
+    "precio": 180
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "KOSAS",
+    "producto": "POLVO",
+    "tono": "CANDY",
+    "stock": 2,
+    "precio": 1200
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "KOSAS",
+    "producto": "POLVO",
+    "tono": "BUTTERY",
+    "stock": 2,
+    "precio": 1200
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "HUDA BEAUTY",
+    "producto": "POLVO",
+    "tono": "POUND CAKE",
+    "stock": 2,
+    "precio": 1200
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "HUDA BEAUTY",
+    "producto": "POLVO",
+    "tono": "BIRTHDAY CAKE",
+    "stock": 2,
+    "precio": 1200
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "HUDA BEAUTY",
+    "producto": "POLVO",
+    "tono": "CERRY",
+    "stock": 2,
+    "precio": 1200
+  },
+  {
+    "categoria": "CEJAS",
+    "marca": "ANASTASIA ",
+    "producto": "BROW PENCIL",
+    "tono": "CARAMEL",
+    "stock": 3,
+    "precio": 600
+  },
+  {
+    "categoria": "CEJAS",
+    "marca": "ANASTASIA ",
+    "producto": "BROW PENCIL",
+    "tono": "AUBURN",
+    "stock": 3,
+    "precio": 600
+  },
+  {
+    "categoria": "CEJAS",
+    "marca": "MOIRA BEAUTY",
+    "producto": "BROW PENCIL",
+    "tono": "TAUPE",
+    "stock": 3,
+    "precio": 180
+  },
+  {
+    "categoria": "CEJAS",
+    "marca": "MOIRA BEAUTY",
+    "producto": "BROW PENCIL",
+    "tono": "BLONDE",
+    "stock": 3,
+    "precio": 180
+  },
+  {
+    "categoria": "CEJAS",
+    "marca": "MOIRA BEAUTY",
+    "producto": "BROW PENCIL",
+    "tono": "MEDIUM BROWN",
+    "stock": 3,
+    "precio": 180
+  },
+  {
+    "categoria": "CEJAS",
+    "marca": "REVOLUTION",
+    "producto": "BROW GEL",
+    "tono": "CLEAR",
+    "stock": 36,
+    "precio": 80
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "HERMES PARIS",
+    "producto": "RUBOR COMPACTO",
+    "tono": "ROCABAR",
+    "stock": 2,
+    "precio": 3500
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "FENTY BEAUTY",
+    "producto": "RUBOR COMPACTO",
+    "tono": "BUBLEBANDS",
+    "stock": 2,
+    "precio": 670
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "FENTY BEAUTY",
+    "producto": "RUBOR COMPACTO",
+    "tono": "PETAL POPPIN",
+    "stock": 2,
+    "precio": 670
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MAKEUP BY MARIO",
+    "producto": "BLUSH EN CREMA",
+    "tono": "BARELY BUSING",
+    "stock": 1,
+    "precio": 1100
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MAKEUP BY MARIO",
+    "producto": "BLUSH EN CREMA",
+    "tono": "PECH ME PINK",
+    "stock": 1,
+    "precio": 1100
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MAKEUP BY MARIO",
+    "producto": "BLUSH EN CREMA",
+    "tono": "PINK PEONY",
+    "stock": 1,
+    "precio": 1100
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MAKEUP BY MARIO",
+    "producto": "BLUSH EN CREMA",
+    "tono": "JUST PEACH",
+    "stock": 1,
+    "precio": 1100
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MAKEUP BY MARIO",
+    "producto": "RUBOR COMPACTO",
+    "tono": "MELLO MAUVE",
+    "stock": 1,
+    "precio": 800
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MAKEUP BY MARIO",
+    "producto": "RUBOR COMPACTO",
+    "tono": "DESERT ROSE",
+    "stock": 1,
+    "precio": 800
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MAKEUP BY MARIO",
+    "producto": "RUBOR COMPACTO",
+    "tono": "WILBERRY",
+    "stock": 1,
+    "precio": 800
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "ONE SIZE",
+    "producto": "BLUSH TRIO ",
+    "tono": "PINK TRIO",
+    "stock": 1,
+    "precio": 1150
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "YVES SAINT LAURENT",
+    "producto": "RUBOR COMPACTO",
+    "tono": "CORAL CLASE",
+    "stock": 1,
+    "precio": 1350
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "YVES SAINT LAURENT",
+    "producto": "RUBOR COMPACTO",
+    "tono": "RESTLESS ROSE",
+    "stock": 1,
+    "precio": 1350
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "YVES SAINT LAURENT",
+    "producto": "RUBOR COMPACTO",
+    "tono": "BABY PINK",
+    "stock": 1,
+    "precio": 1350
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "SAIE COSMETICS",
+    "producto": "BLUSH LIQUIDO",
+    "tono": "BABY",
+    "stock": 2,
+    "precio": 880
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "SAIE COSMETICS",
+    "producto": "BLUSH LIQUIDO",
+    "tono": "ROSY",
+    "stock": 2,
+    "precio": 880
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "SAIE COSMETICS",
+    "producto": "BLUSH LIQUIDO",
+    "tono": "FLIRTY",
+    "stock": 2,
+    "precio": 880
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "VALENTINO",
+    "producto": "RUBOR COMPACTO",
+    "tono": "ROSSO",
+    "stock": 1,
+    "precio": 1850
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "VALENTINO",
+    "producto": "RUBOR COMPACTO",
+    "tono": "ROMA SKY",
+    "stock": 2,
+    "precio": 1850
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "VALENTINO",
+    "producto": "RUBOR COMPACTO",
+    "tono": "BORN IN ROMA",
+    "stock": 2,
+    "precio": 1850
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "PAT MCGRATH",
+    "producto": "RUBOR COMPACTO",
+    "tono": "DIVINE BLUSH",
+    "stock": 3,
+    "precio": 1200
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "LAURA GELLER",
+    "producto": "RUBOR HORNEADO",
+    "tono": "SATIN FINISH",
+    "stock": 2,
+    "precio": 1000
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "LAURA GELLER",
+    "producto": "RUBOR HORNEADO",
+    "tono": "SKYLINE",
+    "stock": 2,
+    "precio": 1000
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "NARS",
+    "producto": "RUBOR COMPACTO",
+    "tono": "ORGASM",
+    "stock": 1,
+    "precio": 850
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "CHAT COSMETICS",
+    "producto": "RUBOR COMPACTO",
+    "tono": "PEACH PINK",
+    "stock": 2,
+    "precio": 1100
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "FLOWERS KNOWS",
+    "producto": "RUBOR COMPACTO",
+    "tono": "SILKY RIBBON",
+    "stock": 1,
+    "precio": 900
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "FLOWERS KNOWS",
+    "producto": "RUBOR COMPACTO",
+    "tono": "02 FLORAL",
+    "stock": 2,
+    "precio": 900
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "FLOWERS KNOWS",
+    "producto": "RUBOR COMPACTO",
+    "tono": "04 ROSE",
+    "stock": 2,
+    "precio": 900
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "FLOWERS KNOWS",
+    "producto": "RUBOR COMPACTO",
+    "tono": "03 PARADISE",
+    "stock": 2,
+    "precio": 900
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "TOWER 28",
+    "producto": "RUBOR COMPACTO",
+    "tono": "FELIZ FRESCA",
+    "stock": 2,
+    "precio": 780
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "TOWER 28",
+    "producto": "RUBOR COMPACTO",
+    "tono": "MALIBU COOLER",
+    "stock": 2,
+    "precio": 780
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "RHODE",
+    "producto": "POCKET BLUSH",
+    "tono": "HOT PINK",
+    "stock": 2,
+    "precio": 850
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "RHODE",
+    "producto": "POCKET BLUSH",
+    "tono": "PEARLY PINK",
+    "stock": 2,
+    "precio": 850
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "RHODE",
+    "producto": "POCKET BLUSH",
+    "tono": "BRIGHT CORAL",
+    "stock": 2,
+    "precio": 850
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LOVE HEAT CREMA BLUSH",
+    "tono": "NEWS YOU",
+    "stock": 2,
+    "precio": 250
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LOVE HEAT CREMA BLUSH",
+    "tono": "WANT YOU",
+    "stock": 2,
+    "precio": 250
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LOVE HEAT CREMA BLUSH",
+    "tono": "ADORE YOU",
+    "stock": 2,
+    "precio": 250
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LOVE HEAT CREMA BLUSH",
+    "tono": "LOVE YOU",
+    "stock": 2,
+    "precio": 250
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LIQUID BLUSH",
+    "tono": "FOREVER MINE",
+    "stock": 2,
+    "precio": 260
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LIQUID BLUSH",
+    "tono": "CHEMISTRY",
+    "stock": 2,
+    "precio": 260
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LIQUID BLUSH",
+    "tono": "SO CUTE ",
+    "stock": 1,
+    "precio": 260
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LIQUID BLUSH",
+    "tono": "TRUST",
+    "stock": 2,
+    "precio": 260
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LIQUID BLUSH",
+    "tono": "STEADY",
+    "stock": 2,
+    "precio": 260
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MOIRA BEAUTY",
+    "producto": "MARVELOUS BAKED BLUSH",
+    "tono": "WEDDING CAKE",
+    "stock": 3,
+    "precio": 350
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MOIRA BEAUTY",
+    "producto": "MARVELOUS BAKED BLUSH",
+    "tono": "CINNAMON ",
+    "stock": 3,
+    "precio": 350
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MOIRA BEAUTY",
+    "producto": "MARVELOUS BAKED BLUSH",
+    "tono": "ANKO TART",
+    "stock": 3,
+    "precio": 350
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MOIRA BEAUTY",
+    "producto": "MARVELOUS BAKED BLUSH",
+    "tono": "BLUEBERRY",
+    "stock": 3,
+    "precio": 350
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MOIRA BEAUTY",
+    "producto": "MARVELOUS BAKED BLUSH",
+    "tono": "ROSE CUPCAKE",
+    "stock": 3,
+    "precio": 350
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MOIRA BEAUTY",
+    "producto": "MARVELOUS BAKED BLUSH",
+    "tono": "STRAWBERRY",
+    "stock": 2,
+    "precio": 350
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MOIRA BEAUTY",
+    "producto": "MARVELOUS BAKED BLUSH",
+    "tono": "PEACH CO LEE",
+    "stock": 3,
+    "precio": 350
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MOIRA BEAUTY",
+    "producto": "MARVELOUS BAKED BLUSH",
+    "tono": "CHERRY",
+    "stock": 3,
+    "precio": 350
+  },
+  {
+    "categoria": "RUBOR",
+    "marca": "MORPHE",
+    "producto": "TRIO BLUSH",
+    "tono": "PINK RED CORAL",
+    "stock": 6,
+    "precio": 650
+  },
+  {
+    "categoria": "AMUSE",
+    "marca": "AMUSE",
+    "producto": "BABY LIQUID BLUSH ",
+    "tono": "MIXS COLORS",
+    "stock": 24,
+    "precio": 150
+  },
+  {
+    "categoria": "DELINEADOR",
+    "marca": "NYX",
+    "producto": "DELINEADOR DE OJOS LAPIZ",
+    "tono": "NEGRO",
+    "stock": 3,
+    "precio": 350
+  },
+  {
+    "categoria": "DELINEADOR",
+    "marca": "NYX",
+    "producto": "DELINEADOR DE OJOS LAPIZ",
+    "tono": "CHOCOLATE",
+    "stock": 2,
+    "precio": 350
+  },
+  {
+    "categoria": "DELINEADOR",
+    "marca": "PAT MCGRATH",
+    "producto": "DELINEADOR DE OJOS LAPIZ",
+    "tono": "NEGRO",
+    "stock": 5,
+    "precio": 800
+  },
+  {
+    "categoria": "DELINEADOR",
+    "marca": "KIKO MILANO",
+    "producto": "DELINEADOR EN CREMA",
+    "tono": "NEGRO",
+    "stock": 2,
+    "precio": 650
+  },
+  {
+    "categoria": "SPRA FIJADOR",
+    "marca": "CHAT COSMETICS",
+    "producto": "SPRAY FIJADOR DE MAQUILLAJE",
+    "tono": "CLEAR",
+    "stock": 2,
+    "precio": 800
+  },
+  {
+    "categoria": "SPRA FIJADOR",
+    "marca": "ONE SIZE",
+    "producto": "SPRAY FIJADOR DE MAQUILLAJE",
+    "tono": "CLEAR",
+    "stock": 9,
+    "precio": 1100
+  },
+  {
+    "categoria": "SPRA FIJADOR",
+    "marca": "SAIE",
+    "producto": "SPRAY FIJADOR DE MAQUILLAJE",
+    "tono": "CLEAR",
+    "stock": 3,
+    "precio": 1200
+  },
+  {
+    "categoria": "SPRA FIJADOR",
+    "marca": "SAIE",
+    "producto": "SPRAY FIJADOR DE MAQUILLAJE",
+    "tono": "CLEAR",
+    "stock": 2,
+    "precio": 600
+  },
+  {
+    "categoria": "SPRA FIJADOR",
+    "marca": "LAURA MERCIER ",
+    "producto": "SPRAY FIJADOR DE MAQUILLAJE",
+    "tono": "CLEAR",
+    "stock": 3,
+    "precio": 1200
+  },
+  {
+    "categoria": "SPRA FIJADOR",
+    "marca": "MOIRA",
+    "producto": "SPRAY FIJADOR DE MAQUILLAJE",
+    "tono": "CLEAR",
+    "stock": 6,
+    "precio": 300
+  },
+  {
+    "categoria": "SPRA FIJADOR",
+    "marca": "L.A GIRL",
+    "producto": "SPRAY FIJADOR DE MAQUILLAJE",
+    "tono": "CLEAR",
+    "stock": 5,
+    "precio": 300
+  },
+  {
+    "categoria": "SPRA FIJADOR",
+    "marca": "ELF",
+    "producto": "SPRAY FIJADOR DE MAQUILLAJE",
+    "tono": "CLEAR",
+    "stock": 3,
+    "precio": 350
+  },
+  {
+    "categoria": "MASCARA",
+    "marca": "TOO FACED",
+    "producto": "BETTER THAN SEX DUO",
+    "tono": "BLACK",
+    "stock": 3,
+    "precio": 1200
+  },
+  {
+    "categoria": "MASCARA",
+    "marca": "KIKO MILANO",
+    "producto": "MAXI MOD LONG LASTING",
+    "tono": "BLACK",
+    "stock": 2,
+    "precio": 700
+  },
+  {
+    "categoria": "MASCARA",
+    "marca": "KIKO MILANO",
+    "producto": "FALSE LASHES CONCENTRATE",
+    "tono": "BLACK",
+    "stock": 3,
+    "precio": 450
+  },
+  {
+    "categoria": "MASCARA",
+    "marca": "KIKO MILANO",
+    "producto": "TOP COAT MASCARA ",
+    "tono": "BLACK",
+    "stock": 6,
+    "precio": 450
+  },
+  {
+    "categoria": "MASCARA",
+    "marca": "KIKO MILANO",
+    "producto": "LONGEYES CARE MASCARA",
+    "tono": "BLACK",
+    "stock": 6,
+    "precio": 600
+  },
+  {
+    "categoria": "SOMBRAS ",
+    "marca": "BUXOM By SHISEIDO",
+    "producto": "SOMBRAS DE OJOS ",
+    "tono": "N/A",
+    "stock": 3,
+    "precio": 1400
+  },
+  {
+    "categoria": "SOMBRAS ",
+    "marca": "FLORASIS",
+    "producto": "SOMBRAS DE OJOS ",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 2200
+  },
+  {
+    "categoria": "SOMBRAS ",
+    "marca": "LAURA GELLER ",
+    "producto": "SOMBRAS DE OJOS ",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 1000
+  },
+  {
+    "categoria": "SOMBRAS ",
+    "marca": "PAT MCGRATH LABS ",
+    "producto": "SOMBRAS DE OJOS ",
+    "tono": "N/A",
+    "stock": 5,
+    "precio": 1400
+  },
+  {
+    "categoria": "SOMBRAS ",
+    "marca": "CHAT COSMETICS",
+    "producto": "SOMBRAS DE OJOS ROYALTY ROMANCE",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 1500
+  },
+  {
+    "categoria": "SOMBRAS ",
+    "marca": "CHAT COSMETICS",
+    "producto": "SOMBRAS DE OJOS ROSE COUTURE",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 1500
+  },
+  {
+    "categoria": "SOMBRAS ",
+    "marca": "TOO FACED ",
+    "producto": "SOMBRAS DE OJOS COSMIC CRUSH",
+    "tono": "N/A",
+    "stock": 5,
+    "precio": 1200
+  },
+  {
+    "categoria": "SOMBRAS ",
+    "marca": "TOO FACED ",
+    "producto": "SOMBRAS DE OJOS LIMITED EDITION",
+    "tono": "N/A",
+    "stock": 5,
+    "precio": 1700
+  },
+  {
+    "categoria": "SOMBRAS ",
+    "marca": "TOO FACED ",
+    "producto": "SOMBRAS DE OJOS CHOCOLATE",
+    "tono": "N/A",
+    "stock": 1,
+    "precio": 1400
+  },
+  {
+    "categoria": "SOMBRAS ",
+    "marca": "KIKO MILANO ",
+    "producto": "SOMBRAS DE OJOS BRIDGERTON",
+    "tono": "N/A",
+    "stock": 4,
+    "precio": 600
+  },
+  {
+    "categoria": "SOMBRAS ",
+    "marca": "KIKO MILANO ",
+    "producto": "SOMBRAS DE OJOS LASTING MOUSSE",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 450
+  },
+  {
+    "categoria": "SOMBRAS ",
+    "marca": "MAKEUP BY MARIO",
+    "producto": "SOMBRAS DE OJOS ORIGINAL PALETTE",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 2200
+  },
+  {
+    "categoria": "SOMBRAS ",
+    "marca": "DOLCE AND GABANNA",
+    "producto": "SOMBRAS DE OJOS EVER ICON ",
+    "tono": "N/A",
+    "stock": 3,
+    "precio": 2300
+  },
+  {
+    "categoria": "SOMBRAS ",
+    "marca": "NATASHA DENONA ",
+    "producto": " SOMBRAS DE OJOS YUCCA PALETTE",
+    "tono": "N/A",
+    "stock": 1,
+    "precio": 2300
+  },
+  {
+    "categoria": "SOMBRAS ",
+    "marca": "NATASHA DENONA ",
+    "producto": "SOMBRAS DE OJOS NUDE PALETTE",
+    "tono": "N/A",
+    "stock": 1,
+    "precio": 2300
+  },
+  {
+    "categoria": "SOMBRAS ",
+    "marca": "HUNG VANNGO",
+    "producto": "SOMBRAS DE OJOS PINK VIOLET",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 1500
+  },
+  {
+    "categoria": "SOMBRAS ",
+    "marca": "MORPHE",
+    "producto": "SOMBRAS DE OJOS RICH GLITCH",
+    "tono": "N/A",
+    "stock": 1,
+    "precio": 660
+  },
+  {
+    "categoria": "SOMBRAS ",
+    "marca": "MORPHE",
+    "producto": "SOMBRAS DE OJOS OUTER SPICE",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 660
+  },
+  {
+    "categoria": "SOMBRAS ",
+    "marca": "MORPHE",
+    "producto": "SOMBRAS DE OJOS PYTHON CODE",
+    "tono": "N/A",
+    "stock": 1,
+    "precio": 660
+  },
+  {
+    "categoria": "SOMBRAS ",
+    "marca": "MORPHE",
+    "producto": "SOMBRAS DE OJOS LOVE BYTE ",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 660
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "TOM FORD ",
+    "producto": "SET DE LABIALES 4 COLORES ",
+    "tono": "VARIOS COLORES",
+    "stock": 5,
+    "precio": 2300
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "CHRISTIAN LOUBOUTIN",
+    "producto": "EN ESTUCHE NEGRO",
+    "tono": "ROJO INTENSO",
+    "stock": 2,
+    "precio": 1850
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "CHRISTIAN LOUBOUTIN",
+    "producto": "EN ESTUCHE NEGRO",
+    "tono": "ROSA ",
+    "stock": 3,
+    "precio": 1850
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "CHRISTIAN LOUBOUTIN",
+    "producto": "EN ESTUCHE NEGRO LIPSTICK",
+    "tono": "RED ROUGE",
+    "stock": 3,
+    "precio": 1400
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "BOND No 9",
+    "producto": "LABIAL ESTUCHE CON REFILL",
+    "tono": "ROJOS",
+    "stock": 1,
+    "precio": 4000
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "BOND No 9",
+    "producto": "LABIAL DE LUJO",
+    "tono": "ROJOS",
+    "stock": 2,
+    "precio": 3100
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "CLINIQUE",
+    "producto": "SET DE DE LABIALES 4 COLORES",
+    "tono": "VARIOS COLORES",
+    "stock": 5,
+    "precio": 1700
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "KIKO MILANO",
+    "producto": "COSMTIQUERA CON LIP Y DELINEADOR",
+    "tono": "N/A",
+    "stock": 1,
+    "precio": 1100
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "KIKO MILANO",
+    "producto": "COSMETIQUERA CON 4 MINIS ",
+    "tono": "N/A",
+    "stock": 3,
+    "precio": 1000
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "CHARLOTTE TILBURY",
+    "producto": "COLLAGEN LIP",
+    "tono": "N/A",
+    "stock": 1,
+    "precio": 1100
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "CHARLOTTE TILBURY",
+    "producto": "ICON HOLLYWOOD LIP TRIO",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 1150
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "ANASTACIA",
+    "producto": "DUO LIPSTICK",
+    "tono": "N/A",
+    "stock": 5,
+    "precio": 850
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "BY MARIO",
+    "producto": "LIPSTICK",
+    "tono": "ROJO",
+    "stock": 2,
+    "precio": 870
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "PAT MACGRATH",
+    "producto": "LIPSTICK",
+    "tono": "APHRODISIAC",
+    "stock": 4,
+    "precio": 870
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "PAT MACGRATH",
+    "producto": "LIPSTICK",
+    "tono": "FLESH 4",
+    "stock": 3,
+    "precio": 870
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "PAT MACGRATH",
+    "producto": "LIPSTICK",
+    "tono": "SECRET LOVE",
+    "stock": 3,
+    "precio": 870
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "PAT MACGRATH",
+    "producto": "LIPSTICK",
+    "tono": "GULINEVERE",
+    "stock": 4,
+    "precio": 870
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "FENTY",
+    "producto": "LIPSTICK",
+    "tono": "THE MVP",
+    "stock": 2,
+    "precio": 800
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "FENTY",
+    "producto": "LIPSTICK",
+    "tono": "FASHION FEND",
+    "stock": 2,
+    "precio": 800
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "DOLCE AND GABANNA ",
+    "producto": "LIPGLOSS",
+    "tono": "CASHWED",
+    "stock": 1,
+    "precio": 940
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "NARS",
+    "producto": "LIPSTICK",
+    "tono": "ENDLESS LOVE",
+    "stock": 1,
+    "precio": 650
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "NARS",
+    "producto": "LIPSTICK",
+    "tono": "ALL NIGHT",
+    "stock": 2,
+    "precio": 650
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "RARE BEAUTY",
+    "producto": "LIPGLOSS",
+    "tono": "NEUTRAL",
+    "stock": 4,
+    "precio": 585
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "KIKO MILANO",
+    "producto": "HYDRA LIPGLOSS",
+    "tono": "VARIOS COLORES",
+    "stock": 10,
+    "precio": 650
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "KIKO MILANO",
+    "producto": "LIPGLOSS BRIDGERTON SERIE",
+    "tono": "BLUSHING",
+    "stock": 3,
+    "precio": 700
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "KIKO MILANO",
+    "producto": "LIPGLOSS BRIDGERTON SERIE",
+    "tono": "MAUVE ",
+    "stock": 2,
+    "precio": 700
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "KIKO MILANO",
+    "producto": "LIPGLOSS BRIDGERTON SERIE",
+    "tono": "PASSOW",
+    "stock": 2,
+    "precio": 700
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "TOO FACED",
+    "producto": "COCOA BOLD LIPSTICK",
+    "tono": "NUDE RED",
+    "stock": 5,
+    "precio": 650
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "SIIA COSMETICS",
+    "producto": "LIPGLOSS",
+    "tono": "MIDNIGHT",
+    "stock": 2,
+    "precio": 550
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "SIIA COSMETICS",
+    "producto": "LIPGLOSS",
+    "tono": "PINK",
+    "stock": 1,
+    "precio": 550
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "SIIA COSMETICS",
+    "producto": "LIPGLOSS",
+    "tono": "FLAMENCO RED",
+    "stock": 2,
+    "precio": 550
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "SIIA COSMETICS",
+    "producto": "LIPGLOSS",
+    "tono": "SUNSET CORAL",
+    "stock": 2,
+    "precio": 550
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "DIOR",
+    "producto": "DIOR LIP GLOW",
+    "tono": "PINK",
+    "stock": 2,
+    "precio": 900
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "DIOR ",
+    "producto": "DIOR LIP GLOW",
+    "tono": "CORAL",
+    "stock": 2,
+    "precio": 900
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "RHODE",
+    "producto": "PEPTIDE LIP TINT",
+    "tono": "RASPBERRY",
+    "stock": 6,
+    "precio": 700
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "RHODE",
+    "producto": "PEPTIDE LIP TINT",
+    "tono": "UNSCENTED ",
+    "stock": 6,
+    "precio": 700
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "RHODE",
+    "producto": "PEPTIDE LIP TINT",
+    "tono": "LEMONTINI",
+    "stock": 5,
+    "precio": 700
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "RHODE",
+    "producto": "PEPTIDE LIP TINT",
+    "tono": "SALTY TAN",
+    "stock": 3,
+    "precio": 700
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "RHODE",
+    "producto": "PEPTIDE LIP TINT",
+    "tono": "RIBBON",
+    "stock": 3,
+    "precio": 700
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "CHAT COSMETICS",
+    "producto": "LIPGLOSS",
+    "tono": "WONDERFUL",
+    "stock": 2,
+    "precio": 850
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "CHAT COSMETICS",
+    "producto": "LIPGLOSS",
+    "tono": "HAPPY EVER",
+    "stock": 2,
+    "precio": 850
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "BESAME COSMETICS",
+    "producto": "LIPSTICK",
+    "tono": "VICTORIA RED",
+    "stock": 1,
+    "precio": 1150
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "BESAME COSMETICS",
+    "producto": "LIPSTICK",
+    "tono": "ENAMORADA",
+    "stock": 1,
+    "precio": 1400
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "CHIC SATIN LIPSTICK",
+    "tono": "CHIC NUDE",
+    "stock": 3,
+    "precio": 240
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "CHIC SATIN LIPSTICK",
+    "tono": "Y2K",
+    "stock": 2,
+    "precio": 240
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "CHIC SATIN LIPSTICK",
+    "tono": "REWIND",
+    "stock": 3,
+    "precio": 240
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "CHIC SATIN LIPSTICK",
+    "tono": "TUMW",
+    "stock": 3,
+    "precio": 240
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "CHIC SATIN LIPSTICK",
+    "tono": "MODERN",
+    "stock": 3,
+    "precio": 240
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "CHIC SATIN LIPSTICK",
+    "tono": "MILLENIUM",
+    "stock": 3,
+    "precio": 240
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "CHIC SATIN LIPSTICK",
+    "tono": "INPIRE",
+    "stock": 3,
+    "precio": 240
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "CHIC SATIN LIPSTICK",
+    "tono": "BOLD",
+    "stock": 3,
+    "precio": 240
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LIP CHIC SHIMMER GLOSS",
+    "tono": "XOXO",
+    "stock": 3,
+    "precio": 240
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LIP CHIC SHIMMER GLOSS",
+    "tono": "SIGNATURE",
+    "stock": 3,
+    "precio": 240
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LIP CHIC SHIMMER GLOSS",
+    "tono": "LIT",
+    "stock": 3,
+    "precio": 240
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LIP CHIC SHIMMER GLOSS",
+    "tono": "CHILLAY",
+    "stock": 3,
+    "precio": 240
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LIP CHIC SHIMMER GLOSS",
+    "tono": "SASSY",
+    "stock": 3,
+    "precio": 240
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LIP CHIC SHIMMER GLOSS",
+    "tono": "TTYL",
+    "stock": 3,
+    "precio": 240
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LIP CHIC SHIMMER GLOSS",
+    "tono": "SLEEK",
+    "stock": 3,
+    "precio": 240
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LIP CHIC SHIMMER GLOSS",
+    "tono": 2000,
+    "stock": 3,
+    "precio": 240
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LIP CHIC  LINER",
+    "tono": "TIMELESS",
+    "stock": 5,
+    "precio": 180
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LIP CHIC  LINER",
+    "tono": "LUXE",
+    "stock": 5,
+    "precio": 180
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LIP CHIC  LINER",
+    "tono": "MISE",
+    "stock": 6,
+    "precio": 180
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LIP CHIC  LINER",
+    "tono": "NOSTALGIA",
+    "stock": 6,
+    "precio": 180
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LIP CHIC  LINER",
+    "tono": "RETRO",
+    "stock": 6,
+    "precio": 180
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LIP CHIC  LINER",
+    "tono": "EDGY",
+    "stock": 6,
+    "precio": 180
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LIP CHIC  LINER",
+    "tono": "ICON",
+    "stock": 6,
+    "precio": 180
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "LIP CHIC  LINER",
+    "tono": "COOL GIRL",
+    "stock": 6,
+    "precio": 180
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "SIGNATURE LIP PENSIL",
+    "tono": "POSH PINK",
+    "stock": 1,
+    "precio": 139
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "SIGNATURE LIP PENSIL",
+    "tono": "BARELY ",
+    "stock": 1,
+    "precio": 139
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "SIGNATURE LIP PENSIL",
+    "tono": "HONEY ROSE",
+    "stock": 1,
+    "precio": 139
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "SIGNATURE LIP PENSIL",
+    "tono": "SUNRISE  CHIC",
+    "stock": 1,
+    "precio": 139
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "SIGNATURE LIP PENSIL",
+    "tono": "CARAMEL BEIGE",
+    "stock": 1,
+    "precio": 139
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "SIGNATURE LIP PENSIL",
+    "tono": "SANDY BROWN",
+    "stock": 1,
+    "precio": 139
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "SIGNATURE LIP PENSIL",
+    "tono": "SUN STONE",
+    "stock": 1,
+    "precio": 139
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "MOIRA BEAUTY",
+    "producto": "SIGNATURE LIP PENSIL",
+    "tono": "DARING RED",
+    "stock": 12,
+    "precio": 139
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "ONE SIZE",
+    "producto": "DELINEADOR",
+    "tono": "RED",
+    "stock": 1,
+    "precio": 450
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "BEAUTY CREATIONS",
+    "producto": "LIPGLOSS",
+    "tono": "STAY CALM",
+    "stock": 4,
+    "precio": 220
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "BEAUTY CREATIONS",
+    "producto": "LIPGLOSS",
+    "tono": "CAPPUCINO",
+    "stock": 4,
+    "precio": 220
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "BEAUTY CREATIONS",
+    "producto": "LIPGLOSS",
+    "tono": "ROMANCE",
+    "stock": 5,
+    "precio": 220
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "BEAUTY CREATIONS",
+    "producto": "LIPGLOSS",
+    "tono": "LIMITED",
+    "stock": 4,
+    "precio": 220
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "BEAUTY CREATIONS",
+    "producto": "LIPGLOSS",
+    "tono": "SWEET AFFAIR",
+    "stock": 4,
+    "precio": 220
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "BEAUTY CREATIONS",
+    "producto": "LIPGLOSS",
+    "tono": "FRIEND ZONE",
+    "stock": 5,
+    "precio": 220
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "BEAUTY CREATIONS",
+    "producto": "LIPGLOSS",
+    "tono": "THE EDGE",
+    "stock": 4,
+    "precio": 220
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "BEAUTY CREATIONS",
+    "producto": "LIPGLOSS",
+    "tono": "FOXY",
+    "stock": 4,
+    "precio": 220
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "BEAUTY CREATIONS",
+    "producto": "LIPGLOSS",
+    "tono": "SUGAR BABY",
+    "stock": 6,
+    "precio": 220
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "BEAUTY CREATIONS",
+    "producto": "LIPGLOSS",
+    "tono": "CHOCOLATE",
+    "stock": 4,
+    "precio": 220
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "BEAUTY CREATIONS",
+    "producto": "LIPGLOSS",
+    "tono": "TUFFLE",
+    "stock": 4,
+    "precio": 220
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "BEAUTY CREATIONS",
+    "producto": "LIPGLOSS",
+    "tono": "MAD ABOUT YOU",
+    "stock": 6,
+    "precio": 220
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "BEAUTY CREATIONS",
+    "producto": "LIPGLOSS",
+    "tono": "SOFT SIDE",
+    "stock": 4,
+    "precio": 220
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "BEAUTY CREATIONS",
+    "producto": "LIPGLOSS",
+    "tono": "STARDUM",
+    "stock": 4,
+    "precio": 220
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "BEAUTY CREATIONS",
+    "producto": "LIPGLOSS",
+    "tono": "HIGH CLASS",
+    "stock": 4,
+    "precio": 220
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "BEAUTY CREATIONS",
+    "producto": "LIPGLOSS",
+    "tono": "NOVA",
+    "stock": 3,
+    "precio": 220
+  },
+  {
+    "categoria": "LABIALES",
+    "marca": "BEAUTY CREATIONS",
+    "producto": "LIPGLOSS",
+    "tono": "JUICED",
+    "stock": 4,
+    "precio": 220
+  }
+]

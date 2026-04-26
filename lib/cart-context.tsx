@@ -6,6 +6,7 @@ import type { Product } from './products';
 export type CartItem = {
   product: Product;
   variantId?: string;
+  tono?: string;
   quantity: number;
 };
 
@@ -14,7 +15,7 @@ type CartContextValue = {
   isOpen: boolean;
   openCart: () => void;
   closeCart: () => void;
-  addItem: (product: Product, quantity?: number, variantId?: string) => void;
+  addItem: (product: Product, quantity?: number, variantId?: string, tono?: string) => void;
   removeItem: (productId: string, variantId?: string) => void;
   updateQuantity: (productId: string, quantity: number, variantId?: string) => void;
   clearCart: () => void;
@@ -35,7 +36,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
   const openCart = useCallback(() => setIsOpen(true), []);
   const closeCart = useCallback(() => setIsOpen(false), []);
 
-  const addItem = useCallback((product: Product, quantity = 1, variantId?: string) => {
+  const addItem = useCallback((product: Product, quantity = 1, variantId?: string, tono?: string) => {
     setItems((prev) => {
       const key = itemKey(product.id, variantId);
       const existing = prev.find((i) => itemKey(i.product.id, i.variantId) === key);
@@ -46,7 +47,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
             : i
         );
       }
-      return [...prev, { product, variantId, quantity }];
+      return [...prev, { product, variantId, tono, quantity }];
     });
     setIsOpen(true);
   }, []);

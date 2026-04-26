@@ -1,12 +1,38 @@
 'use client';
 
-import { useCart } from '@/lib/cart-context';
+import { useCart, type CartItem } from '@/lib/cart-context';
 import { AnimatePresence, motion } from 'framer-motion';
 import Image from 'next/image';
 import { X, Minus, Plus, ShoppingBag } from 'lucide-react';
 
+const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP ?? '';
+
+function buildWhatsAppMessage(items: CartItem[], subtotal: number): string {
+  const lines = items.map((item) => {
+    const { product, variantId, tono, quantity } = item;
+    const variantLabel =
+      tono
+        ? ` (Tono: ${tono})`
+        : variantId
+          ? ` (${product.variants?.find((v) => v.id === variantId)?.name ?? ''})`
+          : '';
+    const lineTotal = (product.price * quantity).toFixed(2);
+    return `${quantity} x ${product.name}${variantLabel} - $${lineTotal}`;
+  });
+  lines.push(`\nTotal: $${subtotal.toFixed(2)}`);
+  return `Hola, me gustaría hacer el siguiente pedido:\n\n${lines.join('\n')}`;
+}
+
 export default function CartDrawer() {
   const { items, isOpen, closeCart, removeItem, updateQuantity, subtotal } = useCart();
+
+  function handleCheckout() {
+    const msg = buildWhatsAppMessage(items, subtotal);
+    const url = WHATSAPP_NUMBER
+      ? `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`
+      : `https://wa.me/?text=${encodeURIComponent(msg)}`;
+    window.open(url, '_blank', 'noopener,noreferrer');
+  }
 
   return (
     <AnimatePresence>
@@ -57,8 +83,9 @@ export default function CartDrawer() {
               <>
                 <ul className="flex-1 divide-y divide-[color:var(--border)] overflow-y-auto px-8">
                   {items.map((item) => {
-                    const { product, variantId, quantity } = item;
+                    const { product, variantId, tono, quantity } = item;
                     const variant = product.variants?.find((v) => v.id === variantId);
+                    const displayTone = tono ?? variant?.name;
                     return (
                       <li key={`${product.id}__${variantId ?? ''}`} className="flex gap-5 py-6">
                         <div className="relative h-24 w-20 shrink-0 overflow-hidden bg-[color:var(--accent-soft)]">
@@ -77,10 +104,12 @@ export default function CartDrawer() {
                           </p>
                           <p className="text-sm font-normal leading-snug text-[color:var(--foreground)]">
                             {product.name}
-                            {variant && (
-                              <span className="block text-xs text-[color:var(--muted)] mt-0.5">— {variant.name}</span>
-                            )}
                           </p>
+                          {displayTone && (
+                            <p className="text-[10px] tracking-[0.2em] uppercase text-[color:var(--muted)]">
+                              Tono: {displayTone}
+                            </p>
+                          )}
                           <p className="text-sm font-medium text-[color:var(--foreground)]">
                             ${product.price.toFixed(2)}
                           </p>
@@ -125,8 +154,11 @@ export default function CartDrawer() {
                       ${subtotal.toFixed(2)}
                     </span>
                   </div>
-                  <button className="w-full py-4 text-[11px] font-semibold uppercase tracking-[0.3em] text-white bg-[color:var(--foreground)] hover:bg-[color:var(--accent)] transition-colors">
-                    Finalizar compra
+                  <button
+                    onClick={handleCheckout}
+                    className="w-full py-4 text-[11px] font-semibold uppercase tracking-[0.3em] text-white bg-[color:var(--foreground)] hover:bg-[color:var(--accent)] transition-colors"
+                  >
+                    Finalizar por WhatsApp
                   </button>
                   <button
                     onClick={closeCart}
