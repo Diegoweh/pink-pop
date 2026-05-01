@@ -360,6 +360,30 @@
     "precio": 1300
   },
   {
+    "categoria": "BASE",
+    "marca": "BEAUTY BLENDER",
+    "producto": "FOUNDATION",
+    "tono": 1,
+    "stock": 2,
+    "precio": 0
+  },
+  {
+    "categoria": "BASE",
+    "marca": "CHARLOTTE TILBURY",
+    "producto": "FOUNDATION",
+    "tono": 1,
+    "stock": 2,
+    "precio": 0
+  },
+  {
+    "categoria": "BASE",
+    "marca": "CHARLOTTE TILBURY",
+    "producto": "FOUNDATION",
+    "tono": 2,
+    "stock": 2,
+    "precio": 0
+  },
+  {
     "categoria": "CORRECTOR",
     "marca": "VALENTINO",
     "producto": "LIQUID CONCEALER",
@@ -484,6 +508,14 @@
     "marca": "FLORASIS",
     "producto": "POLVO",
     "tono": "NEUTRAL",
+    "stock": 2,
+    "precio": 1500
+  },
+  {
+    "categoria": "POLVO",
+    "marca": "FLORASIS",
+    "producto": "POLVO",
+    "tono": 2,
     "stock": 2,
     "precio": 1500
   },
@@ -678,6 +710,22 @@
     "tono": "CLEAR",
     "stock": 36,
     "precio": 80
+  },
+  {
+    "categoria": "CEJAS",
+    "marca": "BENEFIT",
+    "producto": "BROW PENCIL",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 0
+  },
+  {
+    "categoria": "CEJAS",
+    "marca": "ELF",
+    "producto": "BROW GEL",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 0
   },
   {
     "categoria": "RUBOR",
@@ -1096,7 +1144,7 @@
     "precio": 650
   },
   {
-    "categoria": "AMUSE",
+    "categoria": "LABIALES",
     "marca": "AMUSE",
     "producto": "BABY LIQUID BLUSH ",
     "tono": "MIXS COLORS",
