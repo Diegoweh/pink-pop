@@ -5,8 +5,17 @@ import CollectionGallery from "./CollectionGallery";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Colección | Pink Pop",
-  description: "Explora toda nuestra colección de cosméticos premium.",
+  title: "Colección completa de maquillaje y cosméticos",
+  description:
+    "Explora toda nuestra colección de cosméticos premium: labiales, rubores, sombras, bases y más, de marcas reconocidas. Envíos en México.",
+  alternates: { canonical: "/coleccion" },
+  openGraph: {
+    title: "Colección completa | Pink Pop",
+    description:
+      "Catálogo completo de maquillaje premium seleccionado por Pink Pop.",
+    url: "/coleccion",
+    type: "website",
+  },
 };
 
 export default function ColeccionPage() {
