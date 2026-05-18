@@ -355,7 +355,7 @@
     "categoria": "BASE",
     "marca": "ONE SIZE",
     "producto": "FOUNDATION",
-    "tono": "MEDIUM DARK ",
+    "tono": "MEDIUM DARK",
     "stock": 2,
     "precio": 1300
   },
@@ -401,7 +401,7 @@
   },
   {
     "categoria": "CORRECTOR",
-    "marca": "LAURA GELLER ",
+    "marca": "LAURA GELLER",
     "producto": "LIQUID CONCEALER",
     "tono": "LIGHT NEUTRAL",
     "stock": 2,
@@ -409,7 +409,7 @@
   },
   {
     "categoria": "CORRECTOR",
-    "marca": "LAURA GELLER ",
+    "marca": "LAURA GELLER",
     "producto": "LIQUID CONCEALER",
     "tono": "FAIR",
     "stock": 2,
@@ -499,7 +499,7 @@
     "categoria": "POLVO",
     "marca": "LAURA MERCIER",
     "producto": "POLVO",
-    "tono": "INDULGENT ",
+    "tono": "INDULGENT",
     "stock": 3,
     "precio": 1100
   },
@@ -523,7 +523,7 @@
     "categoria": "POLVO",
     "marca": "JEFFREE STAR",
     "producto": "POLVO",
-    "tono": "PINK ",
+    "tono": "PINK",
     "stock": 2,
     "precio": 950
   },
@@ -665,7 +665,7 @@
   },
   {
     "categoria": "CEJAS",
-    "marca": "ANASTASIA ",
+    "marca": "ANASTASIA",
     "producto": "BROW PENCIL",
     "tono": "CARAMEL",
     "stock": 3,
@@ -673,7 +673,7 @@
   },
   {
     "categoria": "CEJAS",
-    "marca": "ANASTASIA ",
+    "marca": "ANASTASIA",
     "producto": "BROW PENCIL",
     "tono": "AUBURN",
     "stock": 3,
@@ -810,7 +810,7 @@
   {
     "categoria": "RUBOR",
     "marca": "ONE SIZE",
-    "producto": "BLUSH TRIO ",
+    "producto": "BLUSH TRIO",
     "tono": "PINK TRIO",
     "stock": 1,
     "precio": 1150
@@ -1051,7 +1051,7 @@
     "categoria": "RUBOR",
     "marca": "MOIRA BEAUTY",
     "producto": "LIQUID BLUSH",
-    "tono": "SO CUTE ",
+    "tono": "SO CUTE",
     "stock": 1,
     "precio": 260
   },
@@ -1083,7 +1083,7 @@
     "categoria": "RUBOR",
     "marca": "MOIRA BEAUTY",
     "producto": "MARVELOUS BAKED BLUSH",
-    "tono": "CINNAMON ",
+    "tono": "CINNAMON",
     "stock": 3,
     "precio": 350
   },
@@ -1146,7 +1146,7 @@
   {
     "categoria": "LABIALES",
     "marca": "AMUSE",
-    "producto": "BABY LIQUID BLUSH ",
+    "producto": "BABY LIQUID BLUSH",
     "tono": "MIXS COLORS",
     "stock": 24,
     "precio": 150
@@ -1217,7 +1217,7 @@
   },
   {
     "categoria": "SPRA FIJADOR",
-    "marca": "LAURA MERCIER ",
+    "marca": "LAURA MERCIER",
     "producto": "SPRAY FIJADOR DE MAQUILLAJE",
     "tono": "CLEAR",
     "stock": 3,
@@ -1274,7 +1274,7 @@
   {
     "categoria": "MASCARA",
     "marca": "KIKO MILANO",
-    "producto": "TOP COAT MASCARA ",
+    "producto": "TOP COAT MASCARA",
     "tono": "BLACK",
     "stock": 6,
     "precio": 450
@@ -1288,39 +1288,39 @@
     "precio": 600
   },
   {
-    "categoria": "SOMBRAS ",
+    "categoria": "SOMBRAS",
     "marca": "BUXOM By SHISEIDO",
-    "producto": "SOMBRAS DE OJOS ",
+    "producto": "SOMBRAS DE OJOS",
     "tono": "N/A",
     "stock": 3,
     "precio": 1400
   },
   {
-    "categoria": "SOMBRAS ",
+    "categoria": "SOMBRAS",
     "marca": "FLORASIS",
-    "producto": "SOMBRAS DE OJOS ",
+    "producto": "SOMBRAS DE OJOS",
     "tono": "N/A",
     "stock": 2,
     "precio": 2200
   },
   {
-    "categoria": "SOMBRAS ",
-    "marca": "LAURA GELLER ",
-    "producto": "SOMBRAS DE OJOS ",
+    "categoria": "SOMBRAS",
+    "marca": "LAURA GELLER",
+    "producto": "SOMBRAS DE OJOS",
     "tono": "N/A",
     "stock": 2,
     "precio": 1000
   },
   {
-    "categoria": "SOMBRAS ",
-    "marca": "PAT MCGRATH LABS ",
-    "producto": "SOMBRAS DE OJOS ",
+    "categoria": "SOMBRAS",
+    "marca": "PAT MCGRATH LABS",
+    "producto": "SOMBRAS DE OJOS",
     "tono": "N/A",
     "stock": 5,
     "precio": 1400
   },
   {
-    "categoria": "SOMBRAS ",
+    "categoria": "SOMBRAS",
     "marca": "CHAT COSMETICS",
     "producto": "SOMBRAS DE OJOS",
     "tono": "ROYALTY ROMANCE",
@@ -1328,7 +1328,7 @@
     "precio": 1500
   },
   {
-    "categoria": "SOMBRAS ",
+    "categoria": "SOMBRAS",
     "marca": "CHAT COSMETICS",
     "producto": "SOMBRAS DE OJOS",
     "tono": "ROSE COUTURE",
@@ -1336,47 +1336,47 @@
     "precio": 1500
   },
   {
-    "categoria": "SOMBRAS ",
-    "marca": "TOO FACED ",
+    "categoria": "SOMBRAS",
+    "marca": "TOO FACED",
     "producto": "SOMBRAS DE OJOS COSMIC CRUSH",
     "tono": "N/A",
     "stock": 5,
     "precio": 1200
   },
   {
-    "categoria": "SOMBRAS ",
-    "marca": "TOO FACED ",
+    "categoria": "SOMBRAS",
+    "marca": "TOO FACED",
     "producto": "SOMBRAS DE OJOS LIMITED EDITION",
     "tono": "N/A",
     "stock": 5,
     "precio": 1700
   },
   {
-    "categoria": "SOMBRAS ",
-    "marca": "TOO FACED ",
+    "categoria": "SOMBRAS",
+    "marca": "TOO FACED",
     "producto": "SOMBRAS DE OJOS CHOCOLATE",
     "tono": "N/A",
     "stock": 1,
     "precio": 1400
   },
   {
-    "categoria": "SOMBRAS ",
-    "marca": "KIKO MILANO ",
+    "categoria": "SOMBRAS",
+    "marca": "KIKO MILANO",
     "producto": "SOMBRAS DE OJOS BRIDGERTON",
     "tono": "N/A",
     "stock": 4,
     "precio": 600
   },
   {
-    "categoria": "SOMBRAS ",
-    "marca": "KIKO MILANO ",
+    "categoria": "SOMBRAS",
+    "marca": "KIKO MILANO",
     "producto": "SOMBRAS DE OJOS LASTING MOUSSE",
     "tono": "N/A",
     "stock": 2,
     "precio": 450
   },
   {
-    "categoria": "SOMBRAS ",
+    "categoria": "SOMBRAS",
     "marca": "MAKEUP BY MARIO",
     "producto": "SOMBRAS DE OJOS ORIGINAL PALETTE",
     "tono": "N/A",
@@ -1384,31 +1384,31 @@
     "precio": 2200
   },
   {
-    "categoria": "SOMBRAS ",
+    "categoria": "SOMBRAS",
     "marca": "DOLCE AND GABANNA",
-    "producto": "SOMBRAS DE OJOS EVER ICON ",
+    "producto": "SOMBRAS DE OJOS EVER ICON",
     "tono": "N/A",
     "stock": 3,
     "precio": 2300
   },
   {
-    "categoria": "SOMBRAS ",
-    "marca": "NATASHA DENONA ",
+    "categoria": "SOMBRAS",
+    "marca": "NATASHA DENONA",
     "producto": "SOMBRAS DE OJOS",
     "tono": "YUCCA PALETTE",
     "stock": 1,
     "precio": 2300
   },
   {
-    "categoria": "SOMBRAS ",
-    "marca": "NATASHA DENONA ",
+    "categoria": "SOMBRAS",
+    "marca": "NATASHA DENONA",
     "producto": "SOMBRAS DE OJOS",
     "tono": "NUDE PALETTE",
     "stock": 1,
     "precio": 2300
   },
   {
-    "categoria": "SOMBRAS ",
+    "categoria": "SOMBRAS",
     "marca": "HUNG VANNGO",
     "producto": "SOMBRAS DE OJOS PINK VIOLET",
     "tono": "N/A",
@@ -1416,7 +1416,7 @@
     "precio": 1500
   },
   {
-    "categoria": "SOMBRAS ",
+    "categoria": "SOMBRAS",
     "marca": "MORPHE",
     "producto": "SOMBRAS DE OJOS",
     "tono": "RICH GLITCH",
@@ -1424,7 +1424,7 @@
     "precio": 660
   },
   {
-    "categoria": "SOMBRAS ",
+    "categoria": "SOMBRAS",
     "marca": "MORPHE",
     "producto": "SOMBRAS DE OJOS",
     "tono": "OUTER SPICE",
@@ -1432,7 +1432,7 @@
     "precio": 660
   },
   {
-    "categoria": "SOMBRAS ",
+    "categoria": "SOMBRAS",
     "marca": "MORPHE",
     "producto": "SOMBRAS DE OJOS",
     "tono": "PYTHON CODE",
@@ -1440,7 +1440,7 @@
     "precio": 660
   },
   {
-    "categoria": "SOMBRAS ",
+    "categoria": "SOMBRAS",
     "marca": "MORPHE",
     "producto": "SOMBRAS DE OJOS",
     "tono": "LOVE BYTE",
@@ -1449,8 +1449,8 @@
   },
   {
     "categoria": "LABIALES",
-    "marca": "TOM FORD ",
-    "producto": "SET DE LABIALES 4 COLORES ",
+    "marca": "TOM FORD",
+    "producto": "SET DE LABIALES 4 COLORES",
     "tono": "VARIOS COLORES",
     "stock": 5,
     "precio": 2300
@@ -1467,7 +1467,7 @@
     "categoria": "LABIALES",
     "marca": "CHRISTIAN LOUBOUTIN",
     "producto": "EN ESTUCHE NEGRO",
-    "tono": "ROSA ",
+    "tono": "ROSA",
     "stock": 3,
     "precio": 1850
   },
@@ -1514,7 +1514,7 @@
   {
     "categoria": "LABIALES",
     "marca": "KIKO MILANO",
-    "producto": "COSMETIQUERA CON 4 MINIS ",
+    "producto": "COSMETIQUERA CON 4 MINIS",
     "tono": "N/A",
     "stock": 3,
     "precio": 1000
@@ -1601,7 +1601,7 @@
   },
   {
     "categoria": "LABIALES",
-    "marca": "DOLCE AND GABANNA ",
+    "marca": "DOLCE AND GABANNA",
     "producto": "LIPGLOSS",
     "tono": "CASHWED",
     "stock": 1,
@@ -1651,7 +1651,7 @@
     "categoria": "LABIALES",
     "marca": "KIKO MILANO",
     "producto": "LIPGLOSS BRIDGERTON SERIE",
-    "tono": "MAUVE ",
+    "tono": "MAUVE",
     "stock": 2,
     "precio": 700
   },
@@ -1713,7 +1713,7 @@
   },
   {
     "categoria": "LABIALES",
-    "marca": "DIOR ",
+    "marca": "DIOR",
     "producto": "LIP GLOW",
     "tono": "CORAL",
     "stock": 2,
@@ -1731,7 +1731,7 @@
     "categoria": "LABIALES",
     "marca": "RHODE",
     "producto": "PEPTIDE LIP TINT",
-    "tono": "UNSCENTED ",
+    "tono": "UNSCENTED",
     "stock": 6,
     "precio": 700
   },
@@ -1995,7 +1995,7 @@
     "categoria": "LABIALES",
     "marca": "MOIRA BEAUTY",
     "producto": "SIGNATURE LIP PENSIL",
-    "tono": "BARELY ",
+    "tono": "BARELY",
     "stock": 1,
     "precio": 139
   },
@@ -2190,5 +2190,749 @@
     "tono": "JUICED",
     "stock": 4,
     "precio": 220
+  },
+  {
+    "categoria": "BOLSAS",
+    "marca": "KURT GEIGER",
+    "producto": "TAMANO MEDIANO",
+    "tono": "NEGRA MONO DORADO",
+    "stock": 1,
+    "precio": 5500
+  },
+  {
+    "categoria": "BOLSAS",
+    "marca": "KURT GEIGER",
+    "producto": "TAMANO MEDIANO",
+    "tono": "NUDE",
+    "stock": 1,
+    "precio": 3700
+  },
+  {
+    "categoria": "BOLSAS",
+    "marca": "KURT GEIGER",
+    "producto": "TAMANO MEDIANO",
+    "tono": "NEGRA CON BRILLO",
+    "stock": 1,
+    "precio": 5800
+  },
+  {
+    "categoria": "BOLSAS",
+    "marca": "KURT GEIGER",
+    "producto": "TAMANO MEDIANO",
+    "tono": "NEGRA CON TEXTURA",
+    "stock": 1,
+    "precio": 4200
+  },
+  {
+    "categoria": "BOLSAS",
+    "marca": "KURT GEIGER",
+    "producto": "TAMANO MEDIANO",
+    "tono": "TOTE NEGRA",
+    "stock": 1,
+    "precio": 3500
+  },
+  {
+    "categoria": "BOLSAS",
+    "marca": "ALDO",
+    "producto": "TAMANO MEDIANO",
+    "tono": "ROJO",
+    "stock": 1,
+    "precio": 2500
+  },
+  {
+    "categoria": "PERFUME",
+    "marca": "HERMES",
+    "producto": "JARDIN DIACOVERY SET",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 1900
+  },
+  {
+    "categoria": "PERFUME",
+    "marca": "FERRAGAMO",
+    "producto": "SIGNORIA",
+    "tono": "N/A",
+    "stock": 1,
+    "precio": 3000
+  },
+  {
+    "categoria": "PERFUME",
+    "marca": "FERRAGAMO",
+    "producto": "INCANTO AMITY",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 1600
+  },
+  {
+    "categoria": "PERFUME",
+    "marca": "FERRAGAMO",
+    "producto": "INCOGNITO BLOOM",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 1600
+  },
+  {
+    "categoria": "PERFUME",
+    "marca": "FERRAGAMO",
+    "producto": "INCANTO SKY",
+    "tono": "N/A",
+    "stock": 1,
+    "precio": 1400
+  },
+  {
+    "categoria": "PERFUME",
+    "marca": "SOL DE JANEIRO",
+    "producto": "CHEIROSA 68 (AMARILLA)",
+    "tono": "N/A",
+    "stock": 3,
+    "precio": 1100
+  },
+  {
+    "categoria": "PERFUME",
+    "marca": "SOL DE JANEIRO",
+    "producto": "CHEIROSA 62 (ROSADO)",
+    "tono": "N/A",
+    "stock": 3,
+    "precio": 1100
+  },
+  {
+    "categoria": "BODY CREAM",
+    "marca": "BATH & BODY WORKS",
+    "producto": "MADAME MISTYQUE",
+    "tono": "N/A",
+    "stock": 4,
+    "precio": 350
+  },
+  {
+    "categoria": "BODY CREAM",
+    "marca": "BATH & BODY WORKS",
+    "producto": "GUILTY FING",
+    "tono": "N/A",
+    "stock": 4,
+    "precio": 350
+  },
+  {
+    "categoria": "BODY CREAM",
+    "marca": "BATH & BODY WORKS",
+    "producto": "INTO THE WILD",
+    "tono": "N/A",
+    "stock": 3,
+    "precio": 350
+  },
+  {
+    "categoria": "BODY CREAM",
+    "marca": "BATH & BODY WORKS",
+    "producto": "PERFECT IN PINK",
+    "tono": "N/A",
+    "stock": 4,
+    "precio": 350
+  },
+  {
+    "categoria": "BODY CREAM",
+    "marca": "BATH & BODY WORKS",
+    "producto": "VELVET SUGAR",
+    "tono": "N/A",
+    "stock": 4,
+    "precio": 350
+  },
+  {
+    "categoria": "BODY CREAM",
+    "marca": "BATH & BODY WORKS",
+    "producto": "BE ENCHANTED",
+    "tono": "N/A",
+    "stock": 3,
+    "precio": 350
+  },
+  {
+    "categoria": "BODY CREAM",
+    "marca": "BATH & BODY WORKS",
+    "producto": "DREAM BRIGH",
+    "tono": "N/A",
+    "stock": 3,
+    "precio": 350
+  },
+  {
+    "categoria": "BODY CREAM",
+    "marca": "BATH & BODY WORKS",
+    "producto": "CHOCOLATE AMBER",
+    "tono": "N/A",
+    "stock": 4,
+    "precio": 350
+  },
+  {
+    "categoria": "BODY CREAM",
+    "marca": "BATH & BODY WORKS",
+    "producto": "FOREVER RED",
+    "tono": "N/A",
+    "stock": 4,
+    "precio": 350
+  },
+  {
+    "categoria": "BODY CREAM",
+    "marca": "BATH & BODY WORKS",
+    "producto": "TOAST OF YOU",
+    "tono": "N/A",
+    "stock": 3,
+    "precio": 500
+  },
+  {
+    "categoria": "BODY CREAM",
+    "marca": "BATH & BODY WORKS",
+    "producto": "PLATINUM",
+    "tono": "N/A",
+    "stock": 4,
+    "precio": 500
+  },
+  {
+    "categoria": "BODY CREAM",
+    "marca": "BATH & BODY WORKS",
+    "producto": "TOUCH OF GOLD",
+    "tono": "N/A",
+    "stock": 6,
+    "precio": 500
+  },
+  {
+    "categoria": "SHIMMER MIST",
+    "marca": "BATH & BODY WORKS",
+    "producto": "TOUCH OF GOLD",
+    "tono": "N/A",
+    "stock": 6,
+    "precio": 500
+  },
+  {
+    "categoria": "SHIMMER MIST",
+    "marca": "BATH & BODY WORKS",
+    "producto": "PLATINUM",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 500
+  },
+  {
+    "categoria": "SHIMMER MIST",
+    "marca": "BATH & BODY WORKS",
+    "producto": "TOAST OF YOU",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 500
+  },
+  {
+    "categoria": "FINE FRAGRANCE MIST",
+    "marca": "BATH & BODY WORKS",
+    "producto": "TOUCH OF GOLD",
+    "tono": "N/A",
+    "stock": 3,
+    "precio": 500
+  },
+  {
+    "categoria": "FINE FRAGRANCE MIST",
+    "marca": "BATH & BODY WORKS",
+    "producto": "PLATINUM",
+    "tono": "N/A",
+    "stock": 3,
+    "precio": 500
+  },
+  {
+    "categoria": "FINE FRAGRANCE MIST",
+    "marca": "BATH & BODY WORKS",
+    "producto": "TOAST OF YOU",
+    "tono": "N/A",
+    "stock": 3,
+    "precio": 500
+  },
+  {
+    "categoria": "BODY WASH",
+    "marca": "BATH & BODY WORKS",
+    "producto": "TOUCH OF GOLD",
+    "tono": "N/A",
+    "stock": 4,
+    "precio": 500
+  },
+  {
+    "categoria": "IPHONE CASE",
+    "marca": "RHODE",
+    "producto": "PHONE CASE",
+    "tono": "LEMONTINI (YELLOW)",
+    "stock": 5,
+    "precio": 1100
+  },
+  {
+    "categoria": "IPHONE CASE",
+    "marca": "RHODE",
+    "producto": "PHONE CASE",
+    "tono": "RASPBERRY JELLY",
+    "stock": 6,
+    "precio": 1100
+  },
+  {
+    "categoria": "IPHONE CASE",
+    "marca": "RHODE",
+    "producto": "PHONE CASE",
+    "tono": "UNSCENTED SANS",
+    "stock": 5,
+    "precio": 1100
+  },
+  {
+    "categoria": "IPHONE CASE",
+    "marca": "RHODE",
+    "producto": "PHONE CASE",
+    "tono": "ROSA SALTE TAN",
+    "stock": 3,
+    "precio": 1100
+  },
+  {
+    "categoria": "IPHONE CASE",
+    "marca": "RHODE",
+    "producto": "PHONE CASE",
+    "tono": "ROSA RIBBON",
+    "stock": 4,
+    "precio": 1100
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "ESTEE LAUDER",
+    "producto": "SET COMPLETO DAY/NIGHT",
+    "tono": "N/A",
+    "stock": 1,
+    "precio": 5000
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "AZURE",
+    "producto": "DUO CREMA DAY/NIGHT",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 1100
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "AZURE",
+    "producto": "SERUM RETINOL & HYALURONIC",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 800
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "AZURE",
+    "producto": "SERUM VITAMIN C / COLAGENO",
+    "tono": "N/A",
+    "stock": 3,
+    "precio": 700
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "AZURE",
+    "producto": "VITAMINA C / COLAGENO",
+    "tono": "N/A",
+    "stock": 4,
+    "precio": 600
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "AZURE",
+    "producto": "DAY CREAM RETINOL COLAGENO",
+    "tono": "N/A",
+    "stock": 4,
+    "precio": 1200
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "AZURE",
+    "producto": "SERUM VITAMINA E / RETINOL",
+    "tono": "N/A",
+    "stock": 3,
+    "precio": 800
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "AZURE",
+    "producto": "MASCARA RETINOL /HYALURONIC",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 550
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "AZURE",
+    "producto": "MASCARA COLAGENO",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 550
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "CENTELLA",
+    "producto": "MASCARILLA ROSTRO PROBIO",
+    "tono": "N/A",
+    "stock": 4,
+    "precio": 500
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "KOREAN",
+    "producto": "PARCHES PARA OJOS",
+    "tono": "N/A",
+    "stock": 1,
+    "precio": 300
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "HOLIKA HOLIKA",
+    "producto": "BAB DE CARACOL EMULCION",
+    "tono": "N/A",
+    "stock": 3,
+    "precio": 1500
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "HOLIKA HOLIKA",
+    "producto": "BABA DE CARACOL CREMA",
+    "tono": "N/A",
+    "stock": 3,
+    "precio": 1250
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "CLEAR",
+    "producto": "DUO CREMA 24K GOLD",
+    "tono": "N/A",
+    "stock": 1,
+    "precio": 750
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "LICORNE",
+    "producto": "TONER VEGAN RICE KOREA",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 700
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "LICORNE",
+    "producto": "SERUM VEGAN RICE KOREA",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 750
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "LICORNE",
+    "producto": "FACIAL VEGAN CREAM  KOREA",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 750
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "CLEAR",
+    "producto": "EYES SERUM 24K GOLD KOREA",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 500
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "BFDA",
+    "producto": "COMPLEXION CREAM",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 650
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "BFDA",
+    "producto": "GLOWING SERUM",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 750
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "ORDINARY",
+    "producto": "SET ORDINARY",
+    "tono": "N/A",
+    "stock": 1,
+    "precio": 1150
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "KOREAN SKIN CARE",
+    "producto": "ROLLING EYE SERUM",
+    "tono": "N/A",
+    "stock": 5,
+    "precio": 650
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "KOREAN SKIN CARE",
+    "producto": "EYE CREAM",
+    "tono": "N/A",
+    "stock": 1,
+    "precio": 650
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "AMUSE KOREA",
+    "producto": "TOALLA DE LIMPIEZA",
+    "tono": "N/A",
+    "stock": 5,
+    "precio": 130
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "BYOMA",
+    "producto": "HYDRATING MILKY TONER",
+    "tono": "N/A",
+    "stock": 5,
+    "precio": 850
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "BYOMA",
+    "producto": "BRIGHTENING TONER",
+    "tono": "N/A",
+    "stock": 3,
+    "precio": 800
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "BYOMA",
+    "producto": "BEST SELLER COLLECTION SET",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 800
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "BYOMA",
+    "producto": "CREAMY JELLY FACE",
+    "tono": "N/A",
+    "stock": 3,
+    "precio": 800
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "MEDICUBE PDRN",
+    "producto": "SALMON SPERM GEL MASK",
+    "tono": "N/A",
+    "stock": 3,
+    "precio": 850
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "MEDICUBE PDRN",
+    "producto": "SALMON SPERM SERUM",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 850
+  },
+  {
+    "categoria": "SKIN CARE",
+    "marca": "MEDICUBE PDRN",
+    "producto": "SALMON SPERM CREAM",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 850
+  },
+  {
+    "categoria": "BROCHAS",
+    "marca": "MAKE UP BY MARIO",
+    "producto": "SET DE 5 BROCHAS LIMITED EDIT.",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 2250
+  },
+  {
+    "categoria": "BROCHAS",
+    "marca": "VINCE CAMUTO",
+    "producto": "BROCHAS Y COSMETIQUERAS",
+    "tono": "N/A",
+    "stock": 1,
+    "precio": 1000
+  },
+  {
+    "categoria": "BROCHAS",
+    "marca": "ANNE KLEIN",
+    "producto": "SET DE BROCHAS",
+    "tono": "N/A",
+    "stock": 1,
+    "precio": 700
+  },
+  {
+    "categoria": "BROCHAS",
+    "marca": "FULL FACE SET",
+    "producto": "SET COMPLETO",
+    "tono": "N/A",
+    "stock": 1,
+    "precio": 1300
+  },
+  {
+    "categoria": "BROCHAS",
+    "marca": "UNBRANDED",
+    "producto": "SET ORGANIZADOR COMPLETO",
+    "tono": "N/A",
+    "stock": 1,
+    "precio": 750
+  },
+  {
+    "categoria": "BROCHAS",
+    "marca": "BEAUTY CREATIONS",
+    "producto": "SET DE 24 BROCHAS",
+    "tono": "UNBOTHERED",
+    "stock": 2,
+    "precio": 950
+  },
+  {
+    "categoria": "BROCHAS",
+    "marca": "BEAUTY CREATIONS",
+    "producto": "SET DE 24 BROCHAS",
+    "tono": "CLOUD 9",
+    "stock": 2,
+    "precio": 950
+  },
+  {
+    "categoria": "BROCHAS",
+    "marca": "BEAUTY CREATIONS",
+    "producto": "SET DE 24 BROCHAS",
+    "tono": "PRETTY AND PERFECT",
+    "stock": 1,
+    "precio": 950
+  },
+  {
+    "categoria": "BROCHAS",
+    "marca": "BEAUTY CREATIONS",
+    "producto": "SET DE 24 BROCHAS",
+    "tono": "ANGEL BABY",
+    "stock": 2,
+    "precio": 950
+  },
+  {
+    "categoria": "BROCHAS",
+    "marca": "IT COSMETICS",
+    "producto": "SET DE BROCHAS",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 2200
+  },
+  {
+    "categoria": "BROCHAS",
+    "marca": "MORPHE",
+    "producto": "SET DE BROCHAS",
+    "tono": "N/A",
+    "stock": 1,
+    "precio": 1150
+  },
+  {
+    "categoria": "BROCHAS",
+    "marca": "ELF COSMETICS",
+    "producto": "SET DE BROCHAS",
+    "tono": "N/A",
+    "stock": 3,
+    "precio": 900
+  },
+  {
+    "categoria": "ESPONJAS",
+    "marca": "ONE SIZE",
+    "producto": "ESPONJAS DE PRESCICION",
+    "tono": "N/A",
+    "stock": 1,
+    "precio": 550
+  },
+  {
+    "categoria": "ESPONJAS",
+    "marca": "ONE SIZE",
+    "producto": "ESPONJA REDONDA",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 260
+  },
+  {
+    "categoria": "ESPONJAS",
+    "marca": "URBAN STUDIOS",
+    "producto": "FLAWLESS BLEND",
+    "tono": "N/A",
+    "stock": 1,
+    "precio": 350
+  },
+  {
+    "categoria": "ESPONJAS",
+    "marca": "SOLAR THECNICHES",
+    "producto": "SET DE ESPONJAS",
+    "tono": "N/A",
+    "stock": 3,
+    "precio": 480
+  },
+  {
+    "categoria": "ESPONJAS",
+    "marca": "JAPANESQUE",
+    "producto": "BLUSH ESPONJAS",
+    "tono": "N/A",
+    "stock": 1,
+    "precio": 500
+  },
+  {
+    "categoria": "ESPONJAS",
+    "marca": "JAPANESQUE",
+    "producto": "HIGH FOUNDATION SPONGE",
+    "tono": "N/A",
+    "stock": 2,
+    "precio": 600
+  },
+  {
+    "categoria": "COSMETIQUERAS",
+    "marca": "SAIE",
+    "producto": "VANITY CASE AMORE",
+    "tono": "FUSHIA",
+    "stock": 2,
+    "precio": 1480
+  },
+  {
+    "categoria": "COSMETIQUERAS",
+    "marca": "SAIE",
+    "producto": "VANITY CASE RED",
+    "tono": "ROJA",
+    "stock": 2,
+    "precio": 1480
+  },
+  {
+    "categoria": "COSMETIQUERAS",
+    "marca": "SAIE",
+    "producto": "VANITY CASE MIA",
+    "tono": "ROSA",
+    "stock": 1,
+    "precio": 1480
+  },
+  {
+    "categoria": "COSMETIQUERAS",
+    "marca": "HUDA BEAUTY",
+    "producto": "LARGE VANITY BAG",
+    "tono": "FUSHIA HUDA",
+    "stock": 2,
+    "precio": 2000
+  },
+  {
+    "categoria": "COSMETIQUERAS",
+    "marca": "BEAUTY CREATION",
+    "producto": "VANITY BAG",
+    "tono": "ROSA",
+    "stock": 4,
+    "precio": 500
+  },
+  {
+    "categoria": "COSMETIQUERAS",
+    "marca": "VALENTINO",
+    "producto": "SIMPLE SMALL VANITY BAG",
+    "tono": "ROJO",
+    "stock": 1,
+    "precio": 750
+  },
+  {
+    "categoria": "COSMETIQUERAS",
+    "marca": "ONE SIZE",
+    "producto": "MEDIUM VANITY BAG",
+    "tono": "ROJO",
+    "stock": 2,
+    "precio": 650
   }
 ]
